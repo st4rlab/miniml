@@ -2,6 +2,7 @@
 layout: over
 title: Services
 bigimg: /assets/img/uikit.jpg
+permalink: /services
 ---
 
 ![Jekyll-UiKit](/Screenshot.png)

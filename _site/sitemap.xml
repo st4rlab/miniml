@@ -13,7 +13,7 @@
 <lastmod>2018-10-13T13:55:00-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/about/</loc>
+<loc>http://localhost:4000/_pages/about/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/archive/</loc>
@@ -28,7 +28,7 @@
 <loc>http://localhost:4000/resume</loc>
 </url>
 <url>
-<loc>http://localhost:4000/_pages/services/</loc>
+<loc>http://localhost:4000/services</loc>
 </url>
 <url>
 <loc>http://localhost:4000/_pages/thanks/</loc>

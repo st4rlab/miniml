@@ -3,8 +3,6 @@
 main:
   - title: "Services"
     url: /services
-  - title: "Features"
-    url: /index.html#Features
   - title: "Blog"
     url: /blog
   - title: "Archives"
@@ -15,8 +13,6 @@ main:
 mobile:
   - title: "Services"
     url: /services
-  - title: "Features"
-    url: /index.html#Features
   - title: "Blog"
     url: /blog
   - title: "Archive"
