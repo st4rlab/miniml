@@ -1,0 +1,17 @@
+<div id="offcanvasmenu" uk-offcanvas>
+	<div class="uk-offcanvas-bar">
+		<button class="uk-offcanvas-close" type="button" uk-close></button>
+		<a href="{{"/" | relative_url}}" class="uk-logo uk-light uk-margin uk-margin-remove-left"><img src="/assets/img/ijh-logo-white.svg" width="35" height="30" alt="IJH" class="uk-margin-small-right" uk-svg></a>
+		<h5 class="uk-margin">Isaac Joseph Horton</h5>
+		<ul class="uk-nav uk-nav-default uk-light">
+	        {% for link in site.data.navigation.mobile %}
+	            {% if link.url contains "https" %}
+	                {% assign url = link.url %}
+	            {% else %}
+	                {% assign url = link.url | relative_url %}
+	            {% endif %}
+			<li class="{% if page.url contains link.url %}uk-active{% endif %}"><a href="{{ url }}">{{ link.title }}</a></li>{% unless forloop.last %} {% endunless %}
+	              {% endfor %}
+	    </ul>
+	</div>
+</div>

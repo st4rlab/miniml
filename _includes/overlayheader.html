@@ -1,0 +1,54 @@
+<header>
+	<div class="uk-container">
+	  <nav id="nav" class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+	    <div class="uk-navbar-left uk-light black">
+		     <div class="uk-position-center-left-out blackback uk-width-medium">&nbsp;</div>
+	      <a href="{{"/" | relative_url}}" class="uk-logo uk-light uk-margin-remove-left"><img src="/assets/img/ijh-logo-white.svg" width="35" height="30" alt="IJH" class="uk-margin-small-right" uk-svg></a>
+
+	      <ul class="uk-navbar-nav  uk-visible@s uk-light">
+		    
+
+	        {% for link in site.data.navigation.main %}
+	        {% if link.url contains "https" %}
+	          {% assign url = link.url %}
+	        {% else %}
+	          {% assign url = link.url | relative_url %}
+	        {% endif %}
+	        <li class="{% if page.url contains link.url %}uk-active{% endif %}"><a href="{{ url }}">{{ link.title }}</a></li>
+	        {% endfor %}
+	        {% for link in site.data.navigation.toggle %}
+	        {% if link.url contains "https" %}
+	          {% assign url = link.url %}
+	        {% else %}
+	          {% assign url = link.url | relative_url %}
+	        {% endif %}
+	        <li class="{% if page.url contains link.url %}uk-active{% endif %}">
+	          <a href="{{ url }}">{{ link.title }}</a>
+	          <div class="uk-navbar-dropdown uk-border-rounded uk-background-muted">
+	            <ul class="uk-nav uk-navbar-dropdown-nav">
+	              {% for link in site.data.navigation.subnav %}
+	                {% if link.url contains "https" %}
+	                  {% assign url = link.url %}
+	                  {% else %}
+	                  {% assign url = link.url | relative_url %}
+	                  {% endif %}
+	                  <li class="{% if page.url contains link.url %}uk-active{% endif %} uk-nav-header"><a href="{{ url }}">{{ link.title }}</a></li>
+	              {% endfor %}
+	            </ul>
+
+	          </div>
+	        </li>
+	        {% endfor %}
+	      </ul>
+	      <ul class="uk-navbar-nav uk-hidden@s">
+		    <li><a class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle href="#offcanvasmenu"></a></li>
+	      </ul>
+	    </div>
+	    <div class="uk-navbar-right uk-hidden@s">
+	     
+	    {% include offcanvas.html %}
+	    
+	    </div>
+	  </nav>
+  </div>
+</header>

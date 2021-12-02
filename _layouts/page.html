@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="uk-container-expand uk-background-cover uk-background-top-center" style="background-image: url({{ page.bigimg | relative_url }})">
+  <div id="page" class="uk-section uk-padding-remove-bottom">
+    {% if page.bigimg %}
+    <div class="uk-container uk-light" >
+      <div class="intro-text">
+        <h3 class="uk-heading-medium">{{page.title}}</h3>
+      </div>
+    </div>
+    {% else %}
+    <div>
+      <div class="uk-container">
+        <h3 class="uk-heading-medium">{{page.title}}</h3>
+      </div>
+    </div>
+    <hr class="uk-divider-icon">
+    {% endif %}
+  </div>
+    </div>
+<div>
+  <div class="uk-section">
+	  <div class="uk-container">
+	    <article class="uk-article">
+	      {{content}}
+	      {% include buymeacoffee.html %}
+	    </article>
+     </div>
+  </div>
+  {% include totop.html %}
+</div>
