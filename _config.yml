@@ -67,7 +67,7 @@ author: Isaac Joseph Horton
 email: isaacjosephhorton@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Design and software solutions for business. Ecommerce expert. Usability guru.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/github-uikit" # the subpath of your site, e.g. /blog
 url: "https://isaacjosephhorton.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 avatar: /assets/isaac-avatar.png #path/to/avatar.png
 lang: en
