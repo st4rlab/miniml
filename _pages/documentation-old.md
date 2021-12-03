@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Components
-logo: dark
-
-permalink: /components
+title: Documentation
+permalink: /documentation
 ---
 
-# Professional Summary
+# Introduction
+
+
+# Installation
 Accomplished Designer offering 20 years of experience developing and designing user interface for ecommerce, website design and branding. Diligent in building and maintaining relationships with many clients serving nearly every industry with a focus on music brands and boutique businesses. Expertise in marketing strategies for ecommerce and conversion rate. Successful record of expanding network connections through persuasive brand imaging. 
 
-# Work History
-{% include workhistory.html %}
+# Adding Components
 
-#Skills
-{% include skills.html %}
+# Customization of theme
+

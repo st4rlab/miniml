@@ -1,6 +1,7 @@
 ---
 layout: over
 title: Installation
+subheading: Technical details for the installation process
 bigimg: /assets/img/uikit.jpg
 permalink: /installation
 ---

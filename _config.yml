@@ -84,6 +84,7 @@ google_analytics: "G-KZ1JS263PW"
 google_ad_client: "pub-7840179511709652"
 
 include: ["_pages"]
+
 permalink: /:title/
 
 #footer-links

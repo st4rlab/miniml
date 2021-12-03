@@ -1,0 +1,931 @@
+<!doctype html>
+<html lang="" itemscope itemtype="https://schema.org/Article">
+  <head>
+  <meta charset="utf-8">
+  <meta https-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link rel="author" href="Isaac Joseph Horton">
+  <link rel="publisher" href="Isaac Joseph Horton">
+  <link rel="icon" href="/github-uikit/assets/img/favicon-gu.png">
+  <meta itemprop="name" content="Modal">
+  <meta itemprop="description" content="Design and software solutions for business. Ecommerce expert. Usability guru.">
+  <meta itemprop="image" content="">
+
+  <meta name="theme-color" content="#2e353f">
+  <meta name="description" content="Design and software solutions for business. Ecommerce expert. Usability guru.">
+  <meta name="robots" content="index,follow">
+  <meta name="googlebot" content="index,follow">
+  <meta name="generator" content="jekyll">
+  <meta name="rating" content="General">
+  <meta name="format-detection" content="telephone=no">
+  <meta https-equiv="x-dns-prefetch-control" content="on">
+
+  <!-- Facebook Open Graph -->
+  <meta property="fb:app_id" content="">
+  <meta property="og:url" content="http://localhost:4000/components/modal">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Modal">
+  <meta property="og:image" content="http://localhost:4000/assets/img/alaska-glacier-1.jpg">
+  <meta property="og:description" content="Design and software solutions for business. Ecommerce expert. Usability guru.">
+  <meta property="og:site_name" content="Isaac Joseph Horton">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@ijhdesigner">
+  <meta name="twitter:creator" content="@ijhdesigner">
+  <meta name="twitter:url" content="http://localhost:4000/components/modal">
+  <meta name="twitter:title" content="Modal">
+  <meta name="twitter:description" content="Design and software solutions for business. Ecommerce expert. Usability guru.">
+  <meta name="twitter:image" content="http://localhost:4000/Screenshot.png">
+  <meta name="twitter:dnt" content="on">
+
+  <!-- Preloading is not currently supported by any browser at the moment, the idea behind it is certainly interesting.
+  <link rel="preload" href="image.png" as="image">
+  -->
+
+  <title>Modal</title>
+
+  <base href="/github-uikit">
+
+  <!-- Prefetching, preloading, prebrowsing -->
+  <link rel="dns-prefetch" href="/github-uikit">
+  <link rel="preconnect" href="/github-uikit">
+  <link rel="prefetch" href="/github-uikit">
+  <link rel="prerender" href="/github-uikit">
+  <link href="/github-uikit/assets/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="canonical" href="http://localhost:4000/components/modal">
+  <link rel="license" href="">
+  <link rel="alternate" href="https://es.example.com/" hreflang="en">
+  <!-- https://validator.w3.org/feed/ -->
+  <link href="/github-uikit/feed.xml" type="application/rss+xml" rel="alternate" title="Latest 10 blog posts (atom)">
+  <!-- UiKit CSS -->
+  <link rel="stylesheet" href="/github-uikit/assets/css/uikit.min.css">
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/github-uikit/assets/css/syntax.css" type="text/css">
+  <!-- Overrides CSS -->
+  <link rel="stylesheet" href="/github-uikit/assets/css/custom.css" type="text/css">
+  <!-- UiKit Javascript -->
+  <script type="text/javascript" src="/github-uikit/assets/js/uikit.min.js"></script>
+  <script type="text/javascript" src="/github-uikit/assets/js/uikit-icons.min.js"></script>
+  
+
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "pub-7840179511709652",
+          enable_page_level_ads: true
+     });
+</script>
+<style>
+  .button, input[type=submit] {
+    -webkit-appearance: none;
+  }
+</style>
+</head>
+
+<main>
+  <header>
+	<div class="uk-container">
+	  <nav id="nav" class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+	    <div class="uk-navbar-left">
+					    
+			<a href="/github-uikit/" class="uk-logo uk-margin-remove-left"><img src="/github-uikit/assets/img/logo-black.svg" alt="github-uikit" class="uk-margin-small-right" width="138" height="25" uk-svg></a>
+	      	
+
+	      <ul class="uk-navbar-nav  uk-visible@m">
+		    
+
+	        
+	        
+	        <li class=""><a href="/github-uikit/installation">Installation</a></li>
+	        
+	        
+	        <li class=""><a href="/github-uikit/documentation">Documentation</a></li>
+	        
+	        
+	        <li class=""><a href="/github-uikit/blog">Blog</a></li>
+	        
+	        
+	        <li class=""><a href="/github-uikit/contact">Contact</a></li>
+	        
+	        
+	      </ul>
+	      <ul class="uk-navbar-nav uk-hidden@m">
+		    <li><a class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle href="#offcanvasmenu"></a></li>
+	      </ul>
+	    </div>
+	    <div class="uk-navbar-right uk-hidden@m">
+	     
+	    
+	       <div id="offcanvasmenu" uk-offcanvas>
+	<div class="uk-offcanvas-bar">
+		<button class="uk-offcanvas-close" type="button" uk-close></button>
+		<a href="/github-uikit/" class="uk-logo uk-light uk-inline uk-padding-top uk-margin uk-margin-remove-left"><img src="/github-uikit/assets/img/logo-black.svg" width="138" height="25" alt="github-uikit" class="uk-margin-small-right" uk-svg></a>
+		<h5 class="uk-margin">Navigation</h5>
+		<ul class="uk-nav uk-nav-default uk-light">
+	        
+	            
+			<li class=""><a href="/github-uikit/installation">Installation</a></li>
+	              
+	            
+			<li class=""><a href="/github-uikit/documentation">Documentation</a></li>
+	              
+	            
+			<li class=""><a href="/github-uikit/blog">Blog</a></li>
+	              
+	            
+			<li class=""><a href="/github-uikit/contact">Contact</a></li>
+	              
+	    </ul>
+	</div>
+</div>
+	    
+	    
+	    </div>
+	  </nav>
+  </div>
+</header>
+
+  <div>
+    <div class="uk-container">
+		<hr>
+		<div uk-grid>
+		    <div class="uk-width-medium uk-visible@m uk-scrollable-auto" uk-height-viewport>
+
+<h4>Documentation</h4>
+<h5>Layout</h5>
+<hr>
+<ul class="uk-nav">
+<li><a href="/github-uikit/components/article">Article</a></li>
+<li><a href="/github-uikit/components/background">Background</a></li>
+<li><a href="/github-uikit/components/container">Container</a></li>
+<li><a href="/github-uikit/components/cover">Cover</a></li>
+<li><a href="/github-uikit/components/flex">Flex</a></li>
+<li><a href="/github-uikit/components/grid">Grid</a></li>
+<li><a href="/github-uikit/components/column">Column</a></li>
+<li><a href="/github-uikit/components/width">Width</a></li>
+</ul>
+<hr>
+<h5>Text</h5>
+<hr>
+<ul class="uk-nav">
+<li><a href="/github-uikit/components/heading">Heading</a></li>
+<li><a href="/github-uikit/components/text">Text</a></li>
+</ul>
+<hr>
+<ul class="uk-nav">
+<li><a href="/github-uikit/components/accordion">Accordion</a></li>
+<li><a href="/github-uikit/components/alert">Alert</a></li>
+<li><a href="/github-uikit/components/animation">Animation</a></li>
+<li><a href="/github-uikit/components/align">Align</a></li>
+<li><a href="/github-uikit/components/badge">Badge</a></li>
+<li><a href="/github-uikit/components/base">Base</a></li>
+<li><a href="/github-uikit/components/breadcrumb">Breadcrumb</a></li>
+<li><a href="/github-uikit/components/button">Button</a></li>
+<li><a href="/github-uikit/components/card">Card</a></li>
+<li><a href="/github-uikit/components/close">Close</a></li>
+<li><a href="/github-uikit/components/comment">Comment</a></li>
+<li><a href="/github-uikit/components/description-list">Description List</a></li>
+<li><a href="/github-uikit/components/divider">Divider</a></li>
+<li><a href="/github-uikit/components/dotnav">Dotnav</a></li>
+<li><a href="/github-uikit/components/drop">Drop</a></li>
+<li><a href="/github-uikit/components/dropdown">Dropdown</a></li>
+<li><a href="/github-uikit/components/filter">Filter</a></li>
+<li><a href="/github-uikit/components/form">Form</a></li>
+<li><a href="/github-uikit/components/height">Height</a></li>
+<li><a href="/github-uikit/components/icon">Icon</a></li>
+<li><a href="/github-uikit/components/iconnav">Iconnav</a></li>
+<li><a href="/github-uikit/components/image">Image</a></li>
+<li><a href="/github-uikit/components/inverse">Inverse</a></li>
+<li><a href="/github-uikit/components/label">Label</a></li>
+<li><a href="/github-uikit/components/leader">Leader</a></li>
+<li><a href="/github-uikit/components/lightbox">Lightbox</a></li>
+<li><a href="/github-uikit/components/link">Link</a></li>
+<li><a href="/github-uikit/components/list">List</a></li>
+<li><a href="/github-uikit/components/margin">Margin</a></li>
+<li><a href="/github-uikit/components/marker">Marker</a></li>
+<li><a href="/github-uikit/components/modal">Modal</a></li>
+<li><a href="/github-uikit/components/nav">Nav</a></li>
+<li><a href="/github-uikit/components/navbar">Navbar</a></li>
+<li><a href="/github-uikit/components/notification">Notification
+<li><a href="/github-uikit/components/off-canvas">Off-canvas</a></li>
+<li><a href="/github-uikit/components/overlay">Overlay</a></li>
+<li><a href="/github-uikit/components/padding">Padding</a></li>
+<li><a href="/github-uikit/components/pagination">Pagination</a></li>
+<li><a href="/github-uikit/components/parallax">Parallax</a></li>
+<li><a href="/github-uikit/components/placeholder">Placeholder</a></li>
+<li><a href="/github-uikit/components/position">Position</a></li>
+<li><a href="/github-uikit/components/print">Print</a></li>
+<li><a href="/github-uikit/components/progress">Progress</a></li>
+<li><a href="/github-uikit/components/scroll">Scroll</a></li>
+<li><a href="/github-uikit/components/scrollspy">Scrollspy</a></li>
+<li><a href="/github-uikit/components/search">Search</a></li>
+<li><a href="/github-uikit/components/section">Section</a></li>
+<li><a href="/github-uikit/components/slidenav">Slidenav</a></li>
+<li><a href="/github-uikit/components/slider">Slider</a></li>
+<li><a href="/github-uikit/components/slideshow">Slideshow</a></li>
+<li><a href="/github-uikit/components/sortable">Sortable</a></li>
+<li><a href="/github-uikit/components/spinner">Spinner</a></li>
+<li><a href="/github-uikit/components/sticky">Sticky</a></li>
+<li><a href="/github-uikit/components/subnav">Subnav</a></li>
+<li><a href="/github-uikit/components/svg">SVG</a></li>
+<li><a href="/github-uikit/components/switcher">Switcher</a></li>
+<li><a href="/github-uikit/components/tab">Tab</a></li>
+<li><a href="/github-uikit/components/table">Table</a></li>
+<li><a href="/github-uikit/components/thumbnav">Thumbnav</a></li>
+<li><a href="/github-uikit/components/tile">Tile</a></li>
+<li><a href="/github-uikit/components/toggle">Toggle</a></li>
+<li><a href="/github-uikit/components/tooltip">Tooltip</a></li>
+<li><a href="/github-uikit/components/totop">Totop</a></li>
+<li><a href="/github-uikit/components/transition">Transition</a></li>
+<li><a href="/github-uikit/components/upload">Upload</a></li>
+<li><a href="/github-uikit/components/utility">Utility</a></li>
+<li><a href="/github-uikit/components/video">Video</a></li>
+<li><a href="/github-uikit/components/visibility">Visibility</a></li>
+</ul></div>
+		    <div class="uk-width-2-3@m"><h1 id="modal">Modal</h1>
+
+<p class="uk-text-lead">Create modal dialogs with different styles and transitions.</p>
+
+<h2 id="usage">Usage</h2>
+
+<p>The Modal component consists of an overlay, a dialog and an optional close button. You can use any element to toggle a modal dialog. To enable the necessary JavaScript, add the <code class="language-plaintext highlighter-rouge">uk-toggle</code> attribute. An <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code> element needs to be linked to the modal’s id. If you are using another element, like a button, just add the <code class="language-plaintext highlighter-rouge">uk-toggle="target: #ID"</code> attribute to target the id of the modal container.</p>
+
+<p>Add the <code class="language-plaintext highlighter-rouge">uk-modal</code> attribute to a <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> element to create the modal container and an overlay that blanks out the page. It is important to add an <code class="language-plaintext highlighter-rouge">id</code> to indicate the element for toggling. Use the following classes to define the modal’s sections.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Class</th>
+      <th style="text-align: left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.uk-modal-dialog</code></td>
+      <td style="text-align: left">Add this class to a child <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> element to create the dialog</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.uk-modal-body</code></td>
+      <td style="text-align: left">Add this class to create padding between the modal and its content.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.uk-modal-title</code></td>
+      <td style="text-align: left">Add this class to a heading element to create the modal title.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.uk-modal-close</code></td>
+      <td style="text-align: left">Add this class to an <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code> or <code class="language-plaintext highlighter-rouge">&lt;button&gt;</code> element to create a close button and enable its functionality.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- This is a button toggling the modal --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">uk-toggle=</span><span class="s">"target: #my-id"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;&lt;/button&gt;</span>
+
+<span class="c">&lt;!-- This is the modal --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"my-id"</span> <span class="na">uk-modal</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"uk-modal-dialog uk-modal-body"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"uk-modal-title"</span><span class="nt">&gt;&lt;/h2&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"uk-modal-close"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;&lt;/button&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<pre><code class="language-example">&lt;!-- This is a button toggling the modal --&gt;
+&lt;button class="uk-button uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #modal-example"&gt;Open&lt;/button&gt;
+
+&lt;!-- This is an anchor toggling the modal --&gt;
+&lt;a href="#modal-example" uk-toggle&gt;Open&lt;/a&gt;
+
+&lt;!-- This is the modal --&gt;
+&lt;div id="modal-example" uk-modal&gt;
+    &lt;div class="uk-modal-dialog uk-modal-body"&gt;
+        &lt;h2 class="uk-modal-title"&gt;Headline&lt;/h2&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+        &lt;p class="uk-text-right"&gt;
+            &lt;button class="uk-button uk-button-default uk-modal-close" type="button"&gt;Cancel&lt;/button&gt;
+            &lt;button class="uk-button uk-button-primary" type="button"&gt;Save&lt;/button&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+
+<h2 id="close-button">Close button</h2>
+
+<p>To create a close button, enable its functionality and add proper styling and positioning, add the <code class="language-plaintext highlighter-rouge">.uk-modal-close-default</code> class to an <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code> or <code class="language-plaintext highlighter-rouge">&lt;button&gt;</code> element. To place the close button outside the modal, add the <code class="language-plaintext highlighter-rouge">.uk-modal-close-outside</code> class.</p>
+
+<p>Add the <code class="language-plaintext highlighter-rouge">uk-close</code> attribute from the <a href="/github-uikit/components/close">Close component</a>, to apply a close icon.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"my-id"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"uk-modal-dialog"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"uk-modal-close-default"</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">uk-close</span><span class="nt">&gt;&lt;/button&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"my-id"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"uk-modal-dialog"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"uk-modal-close-outside"</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">uk-close</span><span class="nt">&gt;&lt;/button&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<pre><code class="language-example">&lt;!-- This is a button toggling the modal with the default close button --&gt;
+&lt;button class="uk-button uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #modal-close-default"&gt;Default&lt;/button&gt;
+
+&lt;!-- This is the modal with the default close button --&gt;
+&lt;div id="modal-close-default" uk-modal&gt;
+    &lt;div class="uk-modal-dialog uk-modal-body"&gt;
+        &lt;button class="uk-modal-close-default" type="button" uk-close&gt;&lt;/button&gt;
+        &lt;h2 class="uk-modal-title"&gt;Default&lt;/h2&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- This is a button toggling the modal with the outside close button --&gt;
+&lt;button class="uk-button uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #modal-close-outside"&gt;Outside&lt;/button&gt;
+
+&lt;!-- This is the modal with the outside close button --&gt;
+&lt;div id="modal-close-outside" uk-modal&gt;
+    &lt;div class="uk-modal-dialog uk-modal-body"&gt;
+        &lt;button class="uk-modal-close-outside" type="button" uk-close&gt;&lt;/button&gt;
+        &lt;h2 class="uk-modal-title"&gt;Outside&lt;/h2&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+
+<h2 id="center-modal">Center modal</h2>
+
+<p>To vertically center the modal dialog, you can use the <code class="language-plaintext highlighter-rouge">.uk-margin-auto-vertical</code> class from the <a href="/github-uikit/components/margin">Margin component</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"my-id"</span> <span class="na">class=</span><span class="s">"uk-flex-top"</span> <span class="na">uk-modal</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"uk-modal-dialog uk-margin-auto-vertical"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<pre><code class="language-example">&lt;a class="uk-button uk-button-default" href="#modal-center" uk-toggle&gt;Open&lt;/a&gt;
+
+&lt;div id="modal-center" class="uk-flex-top" uk-modal&gt;
+    &lt;div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical"&gt;
+
+        &lt;button class="uk-modal-close-default" type="button" uk-close&gt;&lt;/button&gt;
+
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p><strong>Note</strong> <code class="language-plaintext highlighter-rouge">.uk-flex-top</code> on the modal container is needed to support IE 11.</p>
+
+<hr />
+
+<h2 id="header-and-footer">Header and footer</h2>
+
+<p>To divide the modal into different content sections, use the following classes.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Class</th>
+      <th style="text-align: left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.uk-modal-header</code></td>
+      <td style="text-align: left">Add this class to a <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> element to create the modal header.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.uk-modal-footer</code></td>
+      <td style="text-align: left">Add this class to a <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> element to create the modal footer.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"my-id"</span> <span class="na">uk-modal</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"uk-modal-dialog"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"uk-modal-close-default"</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">uk-close</span><span class="nt">&gt;&lt;/button&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"uk-modal-header"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"uk-modal-title"</span><span class="nt">&gt;&lt;/h2&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"uk-modal-body"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"uk-modal-footer"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<pre><code class="language-example">&lt;a class="uk-button uk-button-default" href="#modal-sections" uk-toggle&gt;Open&lt;/a&gt;
+
+&lt;div id="modal-sections" uk-modal&gt;
+    &lt;div class="uk-modal-dialog"&gt;
+        &lt;button class="uk-modal-close-default" type="button" uk-close&gt;&lt;/button&gt;
+        &lt;div class="uk-modal-header"&gt;
+            &lt;h2 class="uk-modal-title"&gt;Modal Title&lt;/h2&gt;
+        &lt;/div&gt;
+        &lt;div class="uk-modal-body"&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="uk-modal-footer uk-text-right"&gt;
+            &lt;button class="uk-button uk-button-default uk-modal-close" type="button"&gt;Cancel&lt;/button&gt;
+            &lt;button class="uk-button uk-button-primary" type="button"&gt;Save&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+
+<h2 id="container-modifier">Container modifier</h2>
+
+<p>Add the <code class="language-plaintext highlighter-rouge">.uk-modal-container</code> class to expand the modal dialog to the default <a href="/github-uikit/components/container">Container</a> width.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"my-id"</span> <span class="na">class=</span><span class="s">"uk-modal-container"</span> <span class="na">uk-modal</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<pre><code class="language-example">&lt;a class="uk-button uk-button-default" href="#modal-container" uk-toggle&gt;Open&lt;/a&gt;
+
+&lt;div id="modal-container" class="uk-modal-container" uk-modal&gt;
+    &lt;div class="uk-modal-dialog uk-modal-body"&gt;
+        &lt;button class="uk-modal-close-default" type="button" uk-close&gt;&lt;/button&gt;
+        &lt;h2 class="uk-modal-title"&gt;Headline&lt;/h2&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+
+<h2 id="full-modifier">Full modifier</h2>
+
+<p>To create a modal, that fills the entire page, add the <code class="language-plaintext highlighter-rouge">.uk-modal-full</code> class. It is also recommended to add the <code class="language-plaintext highlighter-rouge">.uk-modal-close-full</code> class to the close button, so that it adapts its styling.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"my-id"</span> <span class="na">class=</span><span class="s">"uk-modal-full"</span> <span class="na">uk-modal</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"uk-modal-dialog"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"uk-modal-close-full uk-close-large"</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">uk-close</span><span class="nt">&gt;&lt;/button&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p>Using the <a href="/github-uikit/components/grid">grid</a> and <a href="/github-uikit/components/width">width</a> classes, you can create a nice, split fullscreen modal.</p>
+
+<pre><code class="language-example">&lt;a class="uk-button uk-button-default" href="#modal-full" uk-toggle&gt;Open&lt;/a&gt;
+
+&lt;div id="modal-full" class="uk-modal-full" uk-modal&gt;
+    &lt;div class="uk-modal-dialog"&gt;
+        &lt;button class="uk-modal-close-full uk-close-large" type="button" uk-close&gt;&lt;/button&gt;
+        &lt;div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid&gt;
+            &lt;div class="uk-background-cover" style="background-image: url('images/photo.jpg');" uk-height-viewport&gt;&lt;/div&gt;
+            &lt;div class="uk-padding-large"&gt;
+                &lt;h1&gt;Headline&lt;/h1&gt;
+                &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+
+<h2 id="overflow">Overflow</h2>
+
+<p>By default, the page will scroll with the modal, if its content exceeds the window height. To apply a scrollbar inside the modal, add the <code class="language-plaintext highlighter-rouge">uk-overflow-auto</code> attribute from the <a href="/github-uikit/components/utility#overflow-auto">Utility component</a> to the modal body.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"my-id"</span> <span class="na">uk-modal</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"uk-modal-dialog"</span> <span class="na">uk-overflow-auto</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<pre><code class="language-example">&lt;a class="uk-button uk-button-default" href="#modal-overflow" uk-toggle&gt;Open&lt;/a&gt;
+
+&lt;div id="modal-overflow" uk-modal&gt;
+    &lt;div class="uk-modal-dialog"&gt;
+
+        &lt;button class="uk-modal-close-default" type="button" uk-close&gt;&lt;/button&gt;
+
+        &lt;div class="uk-modal-header"&gt;
+            &lt;h2 class="uk-modal-title"&gt;Headline&lt;/h2&gt;
+        &lt;/div&gt;
+
+        &lt;div class="uk-modal-body" uk-overflow-auto&gt;
+
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+        &lt;/div&gt;
+
+        &lt;div class="uk-modal-footer uk-text-right"&gt;
+            &lt;button class="uk-button uk-button-default uk-modal-close" type="button"&gt;Cancel&lt;/button&gt;
+            &lt;button class="uk-button uk-button-primary" type="button"&gt;Save&lt;/button&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+
+<h2 id="media">Media</h2>
+
+<p>If you want to display media, you should first check, if the <a href="/github-uikit/components/lightbox">Lightbox component</a> doesn’t already offer everything you need. However, you can also use the modal to have more control over the markup to wrap your media in.</p>
+
+<p><strong>Note</strong> Use the <code class="language-plaintext highlighter-rouge">uk-video</code> attribute from the <a href="/github-uikit/components/video">Video component</a> to make sure videos are stopped when the modal is closed.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">uk-modal</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"uk-modal-dialog uk-width-auto"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;iframe</span> <span class="na">src=</span><span class="s">""</span> <span class="na">uk-video</span><span class="nt">&gt;&lt;/iframe&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<pre><code class="language-example"> &lt;p uk-margin&gt;
+    &lt;a class="uk-button uk-button-default" href="#modal-media-image" uk-toggle&gt;Image&lt;/a&gt;
+    &lt;a class="uk-button uk-button-default" href="#modal-media-video" uk-toggle&gt;Video&lt;/a&gt;
+    &lt;a class="uk-button uk-button-default" href="#modal-media-youtube" uk-toggle&gt;YouTube&lt;/a&gt;
+    &lt;a class="uk-button uk-button-default" href="#modal-media-vimeo" uk-toggle&gt;Vimeo&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div id="modal-media-image" class="uk-flex-top" uk-modal&gt;
+    &lt;div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical"&gt;
+        &lt;button class="uk-modal-close-outside" type="button" uk-close&gt;&lt;/button&gt;
+        &lt;img src="images/photo.jpg" alt=""&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="modal-media-video" class="uk-flex-top" uk-modal&gt;
+    &lt;div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical"&gt;
+        &lt;button class="uk-modal-close-outside" type="button" uk-close&gt;&lt;/button&gt;
+        &lt;video src="https://yootheme.com/site/images/media/yootheme-pro.mp4" controls playsinline uk-video&gt;&lt;/video&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="modal-media-youtube" class="uk-flex-top" uk-modal&gt;
+    &lt;div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical"&gt;
+        &lt;button class="uk-modal-close-outside" type="button" uk-close&gt;&lt;/button&gt;
+        &lt;iframe src="https://www.youtube-nocookie.com/embed/c2pz2mlSfXA" width="1920" height="1080" frameborder="0" uk-video uk-responsive&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="modal-media-vimeo" class="uk-flex-top" uk-modal&gt;
+    &lt;div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical"&gt;
+        &lt;button class="uk-modal-close-outside" type="button" uk-close&gt;&lt;/button&gt;
+        &lt;iframe src="https://player.vimeo.com/video/1084537" width="1280" height="720" frameborder="0" uk-video uk-responsive&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+
+<h2 id="groups">Groups</h2>
+
+<p>You can group multiple modals by linking from one to the other and back. Use this to create multistep wizards inside your modals.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"modal-group-1"</span> <span class="na">uk-modal</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"uk-modal-dialog"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#modal-group-2"</span> <span class="na">uk-toggle</span><span class="nt">&gt;</span>Next<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"modal-group-2"</span> <span class="na">uk-modal</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"uk-modal-dialog"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#modal-group-1"</span> <span class="na">uk-toggle</span><span class="nt">&gt;</span>Previous<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<pre><code class="language-example">&lt;p uk-margin&gt;
+    &lt;a class="uk-button uk-button-default" href="#modal-group-1" uk-toggle&gt;Modal 1&lt;/a&gt;
+    &lt;a class="uk-button uk-button-default" href="#modal-group-2" uk-toggle&gt;Modal 2&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div id="modal-group-1" uk-modal&gt;
+    &lt;div class="uk-modal-dialog"&gt;
+        &lt;button class="uk-modal-close-default" type="button" uk-close&gt;&lt;/button&gt;
+        &lt;div class="uk-modal-header"&gt;
+            &lt;h2 class="uk-modal-title"&gt;Headline 1&lt;/h2&gt;
+        &lt;/div&gt;
+        &lt;div class="uk-modal-body"&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="uk-modal-footer uk-text-right"&gt;
+            &lt;button class="uk-button uk-button-default uk-modal-close" type="button"&gt;Cancel&lt;/button&gt;
+            &lt;a href="#modal-group-2" class="uk-button uk-button-primary" uk-toggle&gt;Next&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="modal-group-2" uk-modal&gt;
+    &lt;div class="uk-modal-dialog"&gt;
+        &lt;button class="uk-modal-close-default" type="button" uk-close&gt;&lt;/button&gt;
+        &lt;div class="uk-modal-header"&gt;
+            &lt;h2 class="uk-modal-title"&gt;Headline 2&lt;/h2&gt;
+        &lt;/div&gt;
+        &lt;div class="uk-modal-body"&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="uk-modal-footer uk-text-right"&gt;
+            &lt;button class="uk-button uk-button-default uk-modal-close" type="button"&gt;Cancel&lt;/button&gt;
+            &lt;a href="#modal-group-1" class="uk-button uk-button-primary" uk-toggle&gt;Previous&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<hr />
+
+<h2 id="component-options">Component options</h2>
+
+<p>Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. <a href="/github-uikit/components/javascript#component-configuration">Learn more</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Option</th>
+      <th style="text-align: left">Value</th>
+      <th style="text-align: left">Default</th>
+      <th style="text-align: left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">esc-close</code></td>
+      <td style="text-align: left">Boolean</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">true</code></td>
+      <td style="text-align: left">Close the modal when the <em>Esc</em> key is pressed.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">bg-close</code></td>
+      <td style="text-align: left">Boolean</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">true</code></td>
+      <td style="text-align: left">Close the modal when the background is clicked.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">stack</code></td>
+      <td style="text-align: left">Boolean</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">false</code></td>
+      <td style="text-align: left">Stack modals, when more than one is open. By default, the previous modal will be hidden.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">container</code></td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">true</code></td>
+      <td style="text-align: left">Define a target container via a selector to specify where the modal should be appended in the DOM. Setting it to <code class="language-plaintext highlighter-rouge">false</code> will prevent this behavior.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">cls-page</code></td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">'uk-modal-page'</code></td>
+      <td style="text-align: left">Class to add to <code class="language-plaintext highlighter-rouge">&lt;html&gt;</code> when modal is active</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">cls-panel</code></td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">'uk-modal-dialog'</code></td>
+      <td style="text-align: left">Class of the element to be considered the panel of the modal</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">sel-close</code></td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">'.uk-modal-close,</code> <code class="language-plaintext highlighter-rouge">.uk-modal-close-default,</code> <code class="language-plaintext highlighter-rouge">.uk-modal-close-outside,</code> <code class="language-plaintext highlighter-rouge">.uk-modal-close-full'</code></td>
+      <td style="text-align: left">CSS selector for all elements that should trigger the closing of the modal</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="javascript">JavaScript</h2>
+
+<p>Learn more about <a href="/github-uikit/components/javascript#programmatic-use">JavaScript components</a>.</p>
+
+<h3 id="initialization">Initialization</h3>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">UIkit</span><span class="p">.</span><span class="nx">modal</span><span class="p">(</span><span class="nx">element</span><span class="p">,</span> <span class="nx">options</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="events">Events</h3>
+
+<p>The following events will be triggered on elements with this component attached:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Name</th>
+      <th style="text-align: left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">beforeshow</code></td>
+      <td style="text-align: left">Fires before an item is shown.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">show</code></td>
+      <td style="text-align: left">Fires after an item is shown.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">shown</code></td>
+      <td style="text-align: left">Fires after the item’s show animation has completed.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">beforehide</code></td>
+      <td style="text-align: left">Fires before an item is hidden.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">hide</code></td>
+      <td style="text-align: left">Fires after an item’s hide animation has started.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">hidden</code></td>
+      <td style="text-align: left">Fires after an item is hidden.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="methods">Methods</h3>
+
+<p>The following methods are available for the component:</p>
+
+<h4 id="show">Show</h4>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">UIkit</span><span class="p">.</span><span class="nx">modal</span><span class="p">(</span><span class="nx">element</span><span class="p">).</span><span class="nx">show</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>Shows the Modal.</p>
+
+<h4 id="hide">Hide</h4>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">UIkit</span><span class="p">.</span><span class="nx">modal</span><span class="p">(</span><span class="nx">element</span><span class="p">).</span><span class="nx">hide</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>Hides the Modal.</p>
+
+<hr />
+
+<h2 id="modal-dialogs">Modal dialogs</h2>
+
+<p>The component comes with a number of prepared modal dialogs that you can use for user interaction. You can call the dialog directly from JavaScript and use callback functions to process the user input.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Code</th>
+      <th style="text-align: left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">UIkit.modal.alert('UIkit alert!')</code></td>
+      <td style="text-align: left">Show an alert box with one button.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">UIkit.modal.confirm('UIkit confirm!')</code></td>
+      <td style="text-align: left">Show a confirm dialog with your message and two buttons.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">UIkit.modal.prompt('Name:', 'Your name')</code></td>
+      <td style="text-align: left">Show a dialog asking for a text input.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">UIkit.modal.dialog('&lt;p&gt;UIkit dialog!&lt;/p&gt;');</code></td>
+      <td style="text-align: left">Show dialog with any HTML content.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>To process the user input, the modal uses a promise based interface which provides a <code class="language-plaintext highlighter-rouge">then()</code> function to register your callback functions. The <code class="language-plaintext highlighter-rouge">UIkit.modal.dialog</code> function however will return the modal itself.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">UIkit</span><span class="p">.</span><span class="nx">modal</span><span class="p">.</span><span class="nx">confirm</span><span class="p">(</span><span class="dl">'</span><span class="s1">UIkit confirm!</span><span class="dl">'</span><span class="p">).</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Confirmed.</span><span class="dl">'</span><span class="p">)</span>
+<span class="p">},</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Rejected.</span><span class="dl">'</span><span class="p">)</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>The returned promise has a property <code class="language-plaintext highlighter-rouge">dialog</code>, which holds a reference to the modal itself. This lets you manipulate e.g. the markup of the modal’s element.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">modal</span> <span class="o">=</span> <span class="nx">UIkit</span><span class="p">.</span><span class="nx">modal</span><span class="p">.</span><span class="nx">confirm</span><span class="p">(</span><span class="dl">'</span><span class="s1">UIkit confirm!</span><span class="dl">'</span><span class="p">).</span><span class="nx">dialog</span><span class="p">;</span> <span class="c1">// The modal component</span>
+<span class="kd">const</span> <span class="nx">el</span> <span class="o">=</span> <span class="nx">modal</span><span class="p">.</span><span class="nx">$el</span><span class="p">;</span> <span class="c1">// The modal element</span>
+</code></pre></div></div>
+
+<pre><code class="language-example">&lt;p uk-margin&gt;
+
+    &lt;a id="js-modal-dialog" class="uk-button uk-button-default" href="#"&gt;Dialog&lt;/a&gt;
+
+    &lt;a id="js-modal-alert" class="uk-button uk-button-default" href="#"&gt;Alert&lt;/a&gt;
+
+    &lt;a id="js-modal-confirm" class="uk-button uk-button-default" href="#"&gt;Confirm&lt;/a&gt;
+
+    &lt;a id="js-modal-prompt" class="uk-button uk-button-default" href="#"&gt;Prompt&lt;/a&gt;
+
+    &lt;script&gt;
+
+       UIkit.util.on('#js-modal-dialog', 'click', function (e) {
+           e.preventDefault();
+           e.target.blur();
+           UIkit.modal.dialog('&lt;p class="uk-modal-body"&gt;UIkit dialog!&lt;/p&gt;');
+       });
+
+       UIkit.util.on('#js-modal-alert', 'click', function (e) {
+           e.preventDefault();
+           e.target.blur();
+           UIkit.modal.alert('UIkit alert!').then(function () {
+               console.log('Alert closed.')
+           });
+       });
+
+       UIkit.util.on('#js-modal-confirm', 'click', function (e) {
+           e.preventDefault();
+           e.target.blur();
+           UIkit.modal.confirm('UIkit confirm!').then(function () {
+               console.log('Confirmed.')
+           }, function () {
+               console.log('Rejected.')
+           });
+       });
+
+       UIkit.util.on('#js-modal-prompt', 'click', function (e) {
+           e.preventDefault();
+           e.target.blur();
+           UIkit.modal.prompt('Name:', 'Your name').then(function (name) {
+               console.log('Prompted:', name)
+           });
+       });
+
+    &lt;/script&gt;
+
+&lt;/p&gt;
+</code></pre>
+</div>
+		    <div class="uk-width-expand@m"></div>
+		</div>
+		
+		
+  <!-- BuyMeACoffee -->
+  <div uk-scrollspy="target: > div; cls:uk-animation-fade; cls:uk-animation-slide-bottom-small delay: 690; repeat: true" class="uk-flex uk-flex-center">
+    <style>
+    .bmc-button img{width: 27px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{line-height: 36px !important;height:37px !important;text-decoration: none !important;display:inline-flex !important;color:#000000 !important;background-color:#FFFFFF !important;border-radius: 3px !important;border: 1px solid transparent !important;padding: 1px 9px !important;font-size: 23px !important;letter-spacing: 0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#000000 !important;}
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/isaachorton"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="Buy me a coffee!"><span style="margin-left:5px">Buy me a coffee!</span></a>
+  </div>
+  <!-- End BuyMeACoffee -->
+
+
+		
+		
+<span class="uk-flex uk-flex-center"><a href="" uk-totop uk-scroll></a></span><br>
+
+
+    </div>
+</div>
+
+  <footer>
+  <div class="uk-section uk-section-muted uk-section-xsmall">
+    <div class="uk-container">
+      <div class="uk-grid-match uk-child-width-1-1@m" uk-grid>
+        <div class="uk-text-center uk-text-small">
+          <p>
+            &copy; <a class="uk-link-text" href="https://github.com/isaacjosephhorton">Isaac Joseph Horton</a> | <a class="uk-link-text" href="https://github.com/isaacjosephhorton/github-uikit">Github-UiKit</a>
+            <br>
+            <span>
+  
+  <a href="https://twitter.com/ijhdesigner" class="uk-icon-button" uk-icon="twitter" uk-tooltip="title: Twitter" target="_blank"></a>
+  
+  
+  <a href="https://github.com/isaacjosephhorton" class="uk-icon-button" uk-icon="github" uk-tooltip="title: GitHub" target="_blank"></a>
+  
+  
+  <a href="/github-uikit/feed.xml" class="uk-icon-button" uk-icon="rss" uk-tooltip="title: RSS Feed" target="_blank"></a>
+  
+</span>
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</main>
+
+</html>

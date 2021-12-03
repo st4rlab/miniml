@@ -3,8 +3,6 @@
 main:
   - title: "Installation"
     url: /installation
-  - title: "Components"
-    url: /components
   - title: "Documentation"
     url: /documentation
   - title: "Blog"
@@ -15,8 +13,6 @@ main:
 mobile:
   - title: "Installation"
     url: /installation
-  - title: "Components"
-    url: /components
   - title: "Documentation"
     url: /documentation
   - title: "Blog"
