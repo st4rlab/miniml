@@ -1,21 +1,25 @@
 # If you want to link only specific pages in your header, add the path to the
 # pages in order as they should show up.
 main:
-  - title: "Services"
-    url: /services
+  - title: "Installation"
+    url: /installation
+  - title: "Components"
+    url: /components
+  - title: "Documentation"
+    url: /documentation
   - title: "Blog"
     url: /blog
-  - title: "Archives"
-    url: /archive
-  - title: "Resume"
-    url: /resume
+  - title: "Contact"
+    url: /contact
     
 mobile:
-  - title: "Services"
-    url: /services
+  - title: "Installation"
+    url: /installation
+  - title: "Components"
+    url: /components
+  - title: "Documentation"
+    url: /documentation
   - title: "Blog"
     url: /blog
-  - title: "Archive"
-    url: /archive
-  - title: "Resume"
-    url: /resume
+  - title: "Contact"
+    url: /contact

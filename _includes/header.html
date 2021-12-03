@@ -2,9 +2,9 @@
 	<div class="uk-container">
 	  <nav id="nav" class="uk-navbar-container uk-navbar-transparent" uk-navbar>
 	    <div class="uk-navbar-left">
-	      <a href="{{"/" | relative_url}}" class="uk-logo uk-margin-remove-left"><img src="{{"/assets/img/logo.png" | relative_url}}" alt="IJH" class="uk-margin-small-right"></a>
+			{% include logo.html %}
 
-	      <ul class="uk-navbar-nav  uk-visible@s">
+	      <ul class="uk-navbar-nav  uk-visible@m">
 		    
 
 	        {% for link in site.data.navigation.main %}
@@ -39,11 +39,11 @@
 	        </li>
 	        {% endfor %}
 	      </ul>
-	      <ul class="uk-navbar-nav uk-hidden@s">
+	      <ul class="uk-navbar-nav uk-hidden@m">
 		    <li><a class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle href="#offcanvasmenu"></a></li>
 	      </ul>
 	    </div>
-	    <div class="uk-navbar-right uk-hidden@s">
+	    <div class="uk-navbar-right uk-hidden@m">
 	     
 	    
 	       {% include offcanvas.html %}
