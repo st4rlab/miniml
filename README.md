@@ -1,9 +1,9 @@
-# github-uikit
+# Github-UiKit
 
 
-## Home Page
+## Build Responsive Websites Fast with Github-Uikit - Gu.
 
-![Github-Uikit](/Screenshot.png)
+![Github-Uikit](/screenshot.jpg)
 
 ## Blog Page
 
