@@ -5,7 +5,7 @@
 			{% include logo.html %}
 
 	      <ul class="uk-navbar-nav  uk-visible@m">
-		    
+
 
 	        {% for link in site.data.navigation.main %}
 	        {% if link.url contains "https" %}
@@ -44,11 +44,7 @@
 	      </ul>
 	    </div>
 	    <div class="uk-navbar-right uk-hidden@m">
-	     
-	    
-	       {% include offcanvas.html %}
-	    
-	    
+	      {% include offcanvas.html %}
 	    </div>
 	  </nav>
   </div>

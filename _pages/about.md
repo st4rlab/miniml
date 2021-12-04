@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About Jekyll-UiKit
-bigimg: /assets/img/uikit.jpg
+title: About Github-UiKit
 ---
 
 ![Jekyll-UiKit](/Screenshot.png)
