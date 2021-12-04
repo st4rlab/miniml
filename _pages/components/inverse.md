@@ -19,7 +19,7 @@ Add the `.uk-light` class to improve the visibility of objects on dark backgroun
 <div class="uk-dark"></div>
 ```
 
-```example
+```html
 <div class="uk-child-width-1-2@s" uk-grid>
     <div>
         <div class="uk-light uk-background-secondary uk-padding">

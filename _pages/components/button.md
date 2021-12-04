@@ -19,7 +19,7 @@ To apply this component, add the `.uk-button` class and a modifier such as `.uk-
 <button class="uk-button uk-button-default" disabled></button>
 ```
 
-```example
+```html
 <p uk-margin>
     <a class="uk-button uk-button-default" href="#">Link</a>
     <button class="uk-button uk-button-default">Button</button>
@@ -48,7 +48,7 @@ There are several style modifiers available. Just add one of the following class
 <button class="uk-button uk-button-primary"></button>
 ```
 
-```example
+```html
 <p uk-margin>
     <button class="uk-button uk-button-default">Default</button>
     <button class="uk-button uk-button-primary">Primary</button>
@@ -72,7 +72,7 @@ Add the `.uk-button-small` or `.uk-button-large` class to a button to make it sm
 <button class="uk-button uk-button-default uk-button-large"></button>
 ```
 
-```example
+```html
 <p uk-margin>
     <button class="uk-button uk-button-default uk-button-small">Small button</button>
     <button class="uk-button uk-button-primary uk-button-small">Small button</button>
@@ -94,7 +94,7 @@ Add the `.uk-width-1-1` class from the [Width component](width.md) and the butto
 
 ### Example
 
-```example
+```html
 <button class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Button</button>
 <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom">Button</button>
 <button class="uk-button uk-button-secondary uk-width-1-1">Button</button>
@@ -114,7 +114,7 @@ To create a button group, add the `.uk-button-group` class to a `<div>` element 
 </div>
 ```
 
-```example
+```html
 <div>
     <div class="uk-button-group">
         <button class="uk-button uk-button-secondary">Button</button>
@@ -152,7 +152,7 @@ A button can be used to trigger a dropdown menu from the [Dropdown component](dr
 <div uk-dropdown></div>
 ```
 
-```example
+```html
 <div class="uk-inline">
     <button class="uk-button uk-button-default" type="button">Dropdown</button>
     <div uk-dropdown>
@@ -189,7 +189,7 @@ Use button groups to split buttons into a standard action on the left and a drop
 </div>
 ```
 
-```example
+```html
 
 <div class="uk-button-group">
     <button class="uk-button uk-button-default">Dropdown</button>

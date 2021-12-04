@@ -22,7 +22,7 @@ To apply this component, add the `uk-sortable` attribute to a container and crea
 </div>
 ```
 
-```example
+```html
 <ul class="uk-grid-small uk-child-width-1-2 uk-child-width-1-4@s" uk-sortable="handle: .uk-card" uk-grid>
     <li>
         <div class="uk-card uk-card-default uk-card-body uk-text-center">Item 1</div>
@@ -66,7 +66,7 @@ By default, the entire sortable element can be used for drag and drop sorting. T
 </ul>
 ```
 
-```example
+```html
 <ul class="uk-grid-small uk-child-width-1-2 uk-child-width-1-4@s" uk-sortable="handle: .uk-sortable-handle" uk-grid>
     <li>
         <div class="uk-card uk-card-default uk-card-body">
@@ -127,7 +127,7 @@ To be able to sort items from one list to another, you can group them by adding 
 </div>
 ```
 
-```example
+```html
 <div class="uk-child-width-1-3@s" uk-grid>
     <div>
         <h4>Group 1</h4>
@@ -182,7 +182,7 @@ You can also apply one or more custom classes to items when they are being dragg
 
 **Note** In this example, we are using a nav from the [Nav component](nav.md). When dragging an item it will get a box-shadow and background.
 
-```example
+```html
 <ul class="uk-nav uk-nav-default uk-width-medium" uk-sortable="cls-custom: uk-box-shadow-small uk-flex uk-flex-middle uk-background">
     <li class="uk-active"><a href="#">Active</a></li>
     <li><a href="#">Item</a></li>

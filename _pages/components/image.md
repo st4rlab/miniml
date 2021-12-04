@@ -28,7 +28,7 @@ To apply this component, add the `uk-img` attribute to an `<img>` element and ad
 
 The `width` and `height` attributes are required so an empty placeholder can be generated in the exact same size as the image. Alternatively, use `data-width` and `data-height` if you don't want to set the explicit attributes.
 
-```example
+```html
 <img data-src="images/light.jpg" width="1800" height="1200" alt="" uk-img>
 ```
 
@@ -50,7 +50,7 @@ To use the `srcset` attribute, just prefix it as `data-srcset`.
 <img data-src="" data-srcset="" sizes="" width="" height="" alt="" uk-img>
 ```
 
-```example
+```html
 <img data-src="https://images.unsplash.com/photo-1522201949034-507737bce479?fit=crop&w=650&h=433&q=80"
      data-srcset="https://images.unsplash.com/photo-1522201949034-507737bce479?fit=crop&w=650&h=433&q=80 650w,
                   https://images.unsplash.com/photo-1522201949034-507737bce479?fit=crop&w=1300&h=866&q=80 1300w"
@@ -68,7 +68,7 @@ To use this component with the CSS `background-image` property, add it to a `<di
 <div data-src="" uk-img>...</div>
 ```
 
-```example
+```html
 <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="images/photo.jpg" uk-img>
   <h1>Background Image</h1>
 </div>
@@ -84,7 +84,7 @@ The Image component allows you to use `srcset` for background images. Just add t
 <div data-src="" data-srcset="" data-sizes="" uk-img>...</div>
 ```
 
-```example
+```html
 <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
      data-src="https://images.unsplash.com/photo-1490822180406-880c226c150b?fit=crop&w=650&h=433&q=80"
      data-srcset="https://images.unsplash.com/photo-1490822180406-880c226c150b?fit=crop&w=650&h=433&q=80 650w,
@@ -106,7 +106,7 @@ Usually, the image starts loading when it enters the viewport. To start loading 
 
 The following example loads all images in the slides as soon as the slideshow enters the viewport. It uses `!.uk-slideshow-items` as a target selector. The `!` looks up the DOM to find the next parent element with the `.uk-slideshow-items` class.
 
-```example
+```html
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
 
     <ul class="uk-slideshow-items">
@@ -157,7 +157,7 @@ It's also possible to load only the image of the active slide and lazy load the 
 </ul>
 ```
 
-```example
+```html
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
 
     <ul class="uk-slideshow-items">

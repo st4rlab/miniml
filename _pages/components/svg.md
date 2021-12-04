@@ -21,7 +21,7 @@ To apply this component, add the `uk-svg` attribute to an `<img>` element.
 
 Using the `uk-svg` attribute also allows you to inject a symbol from the SVG file. Just append the symbol's ID to the image path as you would in any fragmented URL.
 
-```example
+```html
 <!-- Targets the SVG image -->
 <img src="../assets/uikit/src/images/icons/cloud-download.svg" width="40" height="40" uk-svg>
 

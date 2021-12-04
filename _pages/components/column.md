@@ -23,7 +23,7 @@ Add one of the `.uk-column-*` classes to an element to display its inline conten
 <div class="uk-column-1-2"></div>
 ```
 
-```example
+```html
 <div class="uk-column-1-2">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
 
@@ -50,7 +50,7 @@ UIkit provides a number of responsive column classes. Basically they work just l
 <div class="uk-column-1-2@s uk-column-1-3@m uk-column-1-4@l"></div>
 ```
 
-```example
+```html
 <div class="uk-column-1-2@s uk-column-1-3@m uk-column-1-4@l">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
 
@@ -70,7 +70,7 @@ To display a vertical line between columns, add the `.uk-column-divider` class.
 <div class="uk-column-1-2 uk-column-divider"></div>
 ```
 
-```example
+```html
 <div class="uk-column-1-2 uk-column-divider">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
 
@@ -94,7 +94,7 @@ To have an inline element span the whole width of the columns, add the `.uk-colu
 </div>
 ```
 
-```example
+```html
 <div class="uk-column-1-2 uk-column-divider">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
 

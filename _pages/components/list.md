@@ -19,7 +19,7 @@ To apply this component, add the `.uk-list` class to an unordered or ordered lis
 </ul>
 ```
 
-```example
+```html
 <ul class="uk-list">
     <li>List item 1</li>
     <li>List item 2</li>
@@ -45,7 +45,7 @@ Add one of the following classes to set the marker of a list item.
 <ul class="uk-list uk-list-disc">...</ul>
 ```
 
-```example
+```html
 <div class="uk-child-width-expand@s" uk-grid>
 
     <div>
@@ -113,7 +113,7 @@ Add one of the following classes to set the marker color.
 <ul class="uk-list uk-list-disc uk-list-primary">...</ul>
 ```
 
-```example
+```html
 <div class="uk-child-width-expand@s" uk-grid>
 
     <div>
@@ -167,7 +167,7 @@ Add the `.uk-list-bullet` class to set a custom image bullet as marker of a list
 <ul class="uk-list uk-list-bullet">...</ul>
 ```
 
-```example
+```html
 <ul class="uk-list uk-list-bullet">
     <li>List item 1</li>
     <li>List item 2</li>
@@ -185,7 +185,7 @@ Add the `.uk-list-divider` class to separate list items with lines.
 <ul class="uk-list uk-list-divider">...</ul>
 ```
 
-```example
+```html
 <ul class="uk-list uk-list-divider">
     <li>List item 1</li>
     <li>List item 2</li>
@@ -203,7 +203,7 @@ Add zebra-striping to a list using the `.uk-list-striped` class.
 <ul class="uk-list uk-list-striped">...</ul>
 ```
 
-```example
+```html
 <ul class="uk-list uk-list-striped">
     <li>List item 1</li>
     <li>List item 2</li>
@@ -226,7 +226,7 @@ Add one of the following classes to increase or decrease the spacing between lis
 <ul class="uk-list uk-list-large">...</ul>
 ```
 
-```example
+```html
 <h4>Large</h4>
 
 <div class="uk-child-width-expand@s" uk-grid>

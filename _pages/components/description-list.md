@@ -18,7 +18,7 @@ Add the `.uk-description-list` class to display terms and descriptions below eac
 </dl>
 ```
 
-```example
+```html
 <dl class="uk-description-list">
     <dt>Description term</dt>
     <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
@@ -42,7 +42,7 @@ Add the `.uk-description-list-divider` class to add a horizontal line between li
 </dl>
 ```
 
-```example
+```html
 <dl class="uk-description-list uk-description-list-divider">
     <dt>Description term</dt>
     <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>

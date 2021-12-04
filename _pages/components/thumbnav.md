@@ -25,7 +25,7 @@ To create a navigation with thumbnails, use the following classes. This componen
 
 **Note** For a better layout, if items should wrap into the next row, add the `uk-margin` attribute from the [Margin component](margin.md).
 
-```example
+```html
 <ul class="uk-thumbnav" uk-margin>
     <li class="uk-active"><a href="#"><img src="images/photo.jpg" width="100" alt=""></a></li>
     <li><a href="#"><img src="images/dark.jpg" width="100" alt=""></a></li>
@@ -43,7 +43,7 @@ The thumbnav can also be displayed vertically. Just add the `.uk-thumbnav-vertic
 <ul class="uk-thumbnav uk-thumbnav-vertical">...</ul>
 ```
 
-```example
+```html
 <ul class="uk-thumbnav uk-thumbnav-vertical" uk-margin>
     <li class="uk-active"><a href="#"><img src="images/photo.jpg" width="100" alt=""></a></li>
     <li><a href="#"><img src="images/dark.jpg" width="100" alt=""></a></li>
@@ -70,7 +70,7 @@ To position the thumbnav on top of an element or the [Slideshow component](slide
 </div>
 ```
 
-```example
+```html
 <div class="uk-position-relative" uk-slideshow="animation: fade">
 
     <ul class="uk-slideshow-items">

@@ -21,7 +21,7 @@ To align images or other elements with spacing between the text and the element,
 <img class="uk-align-left" src="" alt="">
 ```
 
-```example
+```html
 <div class="uk-panel">
     <img class="uk-align-left uk-margin-remove-adjacent" src="images/light.jpg" width="225" height="150" alt="Example image">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -46,7 +46,7 @@ UIkit provides a number of responsive alignment classes. Basically, they work ju
 <img class="uk-align-center uk-align-right@m" src="" alt="">
 ```
 
-```example
+```html
 <div class="uk-panel">
     <img class="uk-align-center uk-align-right@m uk-margin-remove-adjacent"  src="images/light.jpg" width="225" height="150" alt="Example image">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

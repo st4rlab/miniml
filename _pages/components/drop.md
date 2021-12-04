@@ -27,7 +27,7 @@ A dropdown can be enabled by hovering and clicking the toggle. Just add the `mod
 
 **Note** The Drop component has no default styling. In this example, we've used a card from the [Card component](card.md) for visualization.
 
-```example
+```html
 <div class="uk-inline">
     <button class="uk-button uk-button-default" type="button">Hover</button>
     <div uk-drop>
@@ -57,7 +57,7 @@ You can place a grid from the [Grid component](grid.md) inside a drop. Just wrap
 
 Use one of the classes from the [Width component](width.md) to adjust the drop's width.
 
-```example
+```html
 <button class="uk-button uk-button-default" type="button">Hover</button>
 <div class="uk-width-large" uk-drop>
     <div class="uk-card uk-card-body uk-card-default">
@@ -83,7 +83,7 @@ Add one of the following options to the `uk-drop` attribute to adjust the drop's
 <div uk-drop="pos: top-left"></div>
 ```
 
-```example
+```html
 <div class="uk-inline">
     <button class="uk-button uk-button-default" type="button">Top Right</button>
     <div uk-drop="pos: top-right">
@@ -136,7 +136,7 @@ By default, the drop flips automatically when it exceeds the viewport's edge. If
 </div>
 ```
 
-```example
+```html
 <div class="boundary uk-panel uk-placeholder uk-width-2-3@s">
 
     <button class="uk-button uk-button-default uk-float-left" type="button">Hover</button>
@@ -165,7 +165,7 @@ You can also align the drop to its boundary. To do so, add the `boundary-align: 
 </div>
 ```
 
-```example
+```html
 <div class="boundary-align uk-panel uk-placeholder">
 
     <button class="uk-button uk-button-default uk-float-left" type="button">Justify</button>
@@ -191,7 +191,7 @@ To define a custom offset between the drop container and the toggle, add the `of
 <div uk-drop="offset: 80"></div>
 ```
 
-```example
+```html
 <button class="uk-button uk-button-default" type="button">Hover</button>
 <div uk-drop="offset: 80">
     <div class="uk-card uk-card-body uk-card-default">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
@@ -208,7 +208,7 @@ Apply one or more animations to the dropdown by adding the `animation: uk-animat
 <div uk-drop="animation: uk-animation-slide-top-small; duration: 1000"></div>
 ```
 
-```example
+```html
 <button class="uk-button uk-button-default" type="button">Hover</button>
 <div uk-drop="animation: uk-animation-slide-top-small; duration: 1000">
     <div class="uk-card uk-card-body uk-card-default">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>

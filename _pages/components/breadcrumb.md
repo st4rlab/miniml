@@ -21,7 +21,7 @@ To add list items without a link, use a `<span>` element instead of an `<a>`. Al
 </ul>
 ```
 
-```example
+```html
 <ul class="uk-breadcrumb">
     <li><a href="#">Home</a></li>
     <li><a href="#">Linked Category</a></li>

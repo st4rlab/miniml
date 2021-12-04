@@ -24,7 +24,7 @@ To apply a background color to an element, add one of the following classes. The
 
 **Note** To adapt your content for better visibility on each background, add the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.md). Use the [Padding component](padding.md) to add some padding to the elements.
 
-```example
+```html
 <div class="uk-child-width-1-2@s uk-text-center" uk-grid>
     <div>
         <div class="uk-background-default uk-padding uk-panel">
@@ -68,7 +68,7 @@ This component features classes to specify the size of background images by keep
 <div class="uk-background-cover"></div>
 ```
 
-```example
+```html
 <div class="uk-child-width-1-2@s uk-light" uk-grid>
     <div>
         <div class="uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(images/dark.jpg);">
@@ -105,7 +105,7 @@ To alter the background position of your image — which is in the top left hand
 <div class="uk-background-top-left"></div>
 ```
 
-```example
+```html
 <div class="uk-child-width-1-2@s uk-light" uk-grid>
     <div>
         <div class="uk-background-top-right uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-middle uk-flex-center" style="background-image: url(images/dark.jpg);">
@@ -140,7 +140,7 @@ You can also apply a fixed background attachment, so that the image remains in i
 <div class="uk-background-fixed"></div>
 ```
 
-```example
+```html
 <div class="uk-background-fixed uk-background-center-center uk-height-medium uk-width-large" style="background-image: url(images/dark.jpg);"></div>
 ```
 
@@ -163,7 +163,7 @@ Add one of the following classes to limit the display of background images to ce
 
 Resize your browser window to see the effect in the example below.
 
-```example
+```html
 <div class="uk-background-image@m uk-background-cover uk-background-muted uk-height-medium uk-width-large uk-flex uk-flex-center uk-flex-middle" style="background-image: url(images/dark.jpg);">
     <p class="uk-h4 uk-margin-remove uk-visible@m uk-light">Image shown</p>
     <p class="uk-h4 uk-margin-remove uk-hidden@m">Image not shown</p>
@@ -199,7 +199,7 @@ Add one of the following classes to apply different blend modes to your backgrou
 <div class="uk-background-blend-multiply uk-background-primary"></div>
 ```
 
-```example
+```html
 <div class="uk-child-width-1-2 uk-child-width-1-3@s uk-grid-small uk-light" uk-grid>
     <div>
         <div class="uk-background-blend-multiply uk-background-primary uk-background-cover uk-height-small uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(images/photo.jpg);">

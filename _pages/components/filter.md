@@ -65,7 +65,7 @@ If `target` is the only option in the `uk-filter` attribute value, you can also 
 </div>
 ```
 
-```example
+```html
 <div uk-filter="target: .js-filter">
 
     <ul class="uk-subnav uk-subnav-pill">
@@ -135,7 +135,7 @@ By default, the filter uses a `slide` animation for the items between the differ
 <div uk-filter="animation: fade">...</div>
 ```
 
-```example
+```html
 <div uk-filter="target: .js-filter; animation: fade">
 
     <ul class="uk-subnav uk-subnav-pill">
@@ -196,7 +196,7 @@ Add the `.uk-active` class to a filter control, and the filter will be applied i
 <li class="uk-active" uk-filter-control="[data-color='blue']">...</li>
 ```
 
-```example
+```html
 <div uk-filter="target: .js-filter">
 
     <ul class="uk-subnav uk-subnav-pill">
@@ -257,7 +257,7 @@ To reset the filter and target all items, use the `uk-filter-control` attribute 
 <li uk-filter-control>...</li>
 ```
 
-```example
+```html
 <div uk-filter="target: .js-filter">
 
     <ul class="uk-subnav uk-subnav-pill">
@@ -329,7 +329,7 @@ Items can have different meta data for filtering. You just need to define the HT
 </div>
 ```
 
-```example
+```html
 <div uk-filter="target: .js-filter">
 
     <ul class="uk-subnav uk-subnav-pill">
@@ -405,7 +405,7 @@ Define different types of meta data and add any number of controls to filter the
 </div>
 ```
 
-```example
+```html
 <div uk-filter="target: .js-filter">
 
     <div class="uk-grid-small uk-grid-divider uk-child-width-auto" uk-grid>
@@ -534,7 +534,7 @@ To filter items by multiple criteria at the same time, the filter controls need 
 </div>
 ```
 
-```example
+```html
 <div uk-filter="target: .js-filter">
 
     <div class="uk-grid-small uk-grid-divider uk-child-width-auto" uk-grid>
@@ -658,7 +658,7 @@ To sort items alphanumerically, just add the `sort: ATTRIBUTE` option to the `uk
 </div>
 ```
 
-```example
+```html
 <div uk-filter="target: .js-filter">
 
     <ul class="uk-subnav uk-subnav-pill">
@@ -716,7 +716,7 @@ A filter is often applied to a [Masonry](grid.md#masonry) grid. The filter trans
 
 Here is a comprehensive example with a masonry grid:
 
-```example
+```html
 <div uk-filter="target: .js-filter">
 
     <div class="uk-grid-small uk-flex-middle" uk-grid>

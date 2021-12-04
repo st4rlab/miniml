@@ -17,7 +17,7 @@ To apply this component, add the `.uk-iconnav` class to a `<ul>`  element.  Use 
 </ul>
 ```
 
-```example
+```html
 <ul class="uk-iconnav">
     <li><a href="#" uk-icon="icon: plus"></a></li>
     <li><a href="#" uk-icon="icon: file-edit"></a></li>
@@ -36,7 +36,7 @@ By default the items of an iconnav are aligned horizontally. To apply a vertical
 <ul class="uk-iconnav uk-iconnav-vertical">...</ul>
 ```
 
-```example
+```html
 <ul class="uk-iconnav uk-iconnav-vertical">
     <li><a href="#" uk-icon="icon: plus"></a></li>
     <li><a href="#" uk-icon="icon: file-edit"></a></li>

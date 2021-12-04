@@ -19,7 +19,7 @@ To apply this component, add the `uk-leader` attribute to the element on the lef
 <div uk-leader></div>
 ```
 
-```example
+```html
 <div class="uk-grid-small" uk-grid>
     <div class="uk-width-expand" uk-leader>Lorem ipsum dolor sit amet</div>
     <div>$20.90</div>
@@ -36,7 +36,7 @@ To change the dot to any custom character, just add the `fill: STRING` option to
 <div uk-leader="fill: -"></div>
 ```
 
-```example
+```html
 <div class="uk-grid-small" uk-grid>
     <div class="uk-width-expand" uk-leader="fill: -">Lorem ipsum dolor sit amet</div>
     <div>$20.90</div>

@@ -25,7 +25,7 @@ To create the grid container, add the `uk-grid` attribute to a `<div>` element. 
 ```
 **Note** Often cards from the [Card component](card.md) are used inside a grid. This also goes for the following examples for visualization.
 
-```example
+```html
 <div class="uk-child-width-expand@s uk-text-center" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-body">Item</div>
@@ -56,7 +56,7 @@ The Grid component comes with a default gap that is decreased automatically from
 <div class="uk-grid-small" uk-grid>...</div>
 ```
 
-```example
+```html
 <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-body">Item</div>
@@ -123,7 +123,7 @@ To apply a different gap to just the column or row, add one of the following cla
 <div class="uk-grid-column-small uk-grid-row-large" uk-grid>...</div>
 ```
 
-```example
+```html
 <div class="uk-grid-column-small uk-grid-row-large uk-child-width-1-3@s uk-text-center" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-body">Item</div>
@@ -169,7 +169,7 @@ You can easily extend your grid layout with nested grids.
 </div>
 ```
 
-```example
+```html
 <div class="uk-child-width-1-2 uk-text-center" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-body">Item</div>
@@ -197,7 +197,7 @@ Add the `.uk-grid-divider` class to separate grid cells with lines. This class c
 <div class="uk-grid-divider" uk-grid>...</div>
 ```
 
-```example
+```html
 <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
     <div>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
@@ -215,7 +215,7 @@ To match the height of the direct child of each cell, add the `.uk-grid-match` c
 <div class="uk-grid-match" uk-grid>....</div>
 ```
 
-```example
+```html
 <div class="uk-grid-match uk-child-width-expand@s uk-text-center" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-body">Item</div>
@@ -242,7 +242,7 @@ You can also match the height of the direct child of just one cell. To do so, ad
 </div>
 ```
 
-```example
+```html
 <div class="uk-child-width-expand@s" uk-grid>
     <div class="uk-grid-item-match">
         <div class="uk-card uk-card-default uk-card-body">
@@ -278,7 +278,7 @@ For a more specific selection of the elements whose heights should be matched, a
 </div>
 ```
 
-```example
+```html
 <div class="uk-child-width-expand@s uk-text-center" uk-grid uk-height-match="target: > div > .uk-card">
     <div>
         <div class="uk-card uk-card-default uk-card-body">Item</div>
@@ -306,7 +306,7 @@ The grid is mostly used in combination with the [Width component](width.md). Thi
 </div>
 ```
 
-```example
+```html
 <div class="uk-text-center" uk-grid>
     <div class="uk-width-auto@m">
         <div class="uk-card uk-card-default uk-card-body">Auto</div>
@@ -330,7 +330,7 @@ If the grid columns are evenly split, you can add one of the `.uk-child-width-*`
 <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid>...</div>
 ```
 
-```example
+```html
 <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-body">Item</div>
@@ -359,7 +359,7 @@ You can easily combine the grid with the [Flex component](flex.md). That way you
 </div>
 ```
 
-```example
+```html
 <div class="uk-grid-small uk-child-width-1-4@s uk-flex-center uk-text-center" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-body">Item 1</div>
@@ -392,7 +392,7 @@ If grid cells have different heights, a layout free of gaps can be created by ad
 <div uk-grid="masonry: true">...</div>
 ```
 
-```example
+```html
 <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid="masonry: true">
     <div>
         <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 100px">Item</div>
@@ -444,7 +444,7 @@ To move single columns of a grid at different speeds while scrolling, just add `
 
 This effect can be applied to two types of markup. The following example uses three defined columns with three items each.
 
-```example
+```html
 <div class="uk-child-width-expand@s uk-text-center" uk-grid="parallax: 150">
     <div>
         <div class="uk-card uk-card-default uk-card-body uk-grid-margin">Item</div>
@@ -466,7 +466,7 @@ This effect can be applied to two types of markup. The following example uses th
 
 The parallax effect is also applied if grid columns wrap into the next row, as shown in the next example.
 
-```example
+```html
 <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-text-center" uk-grid="parallax: 150">
     <div>
         <div class="uk-card uk-card-default uk-card-body">Item</div>

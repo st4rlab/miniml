@@ -15,7 +15,7 @@ To create a label, just add the `.uk-label` class to a `<span>` element.
 <span class="uk-label"></span>
 ```
 
-```example
+```html
 <span class="uk-label">Default</span>
 ```
 
@@ -35,7 +35,7 @@ Add one of the following classes for additional styles.
 <span class="uk-label uk-label-success"></span>
 ```
 
-```example
+```html
 <span class="uk-label">Default</span>
 
 <span class="uk-label uk-label-success">Success</span>

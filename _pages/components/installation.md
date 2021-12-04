@@ -5,14 +5,14 @@ permalink: /components/installation
 
 # Installation
 
-<p class="uk-text-lead">Learn where to download and how to compile the UIkit sources.</p>
+<p class="uk-text-lead">It's super easy to install and get up and running fast.</p>
 
 ## Download
 
-You have the following options to get UIkit:
+You have the following options to install Github-UIkit:
 
 - Download the [latest release](https://github.com/uikit/uikit/releases/latest) with pre-built JavaScript and CSS.
-- Install with [Yarn](https://yarnpkg.com/en/package/uikit) to get the pre-built JavaScript, CSS and the Less source files. This is recommended when using UIkit for a typical web project: ```yarn add uikit```
+- Install with [npm](https://yarnpkg.com/en/package/uikit)
 - Clone the repo to get all source files including build scripts: `git clone git://github.com/uikit/uikit.git`
 
 The compiled files of all UIkit versions are also hosted on the jsDelivr content delivery network via [jsdelivr.com](https://www.jsdelivr.com/package/npm/uikit).

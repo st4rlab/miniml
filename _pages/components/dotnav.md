@@ -23,7 +23,7 @@ To create a navigation with dots, use the following classes. This component is b
 </ul>
 ```
 
-```example
+```html
 <ul class="uk-dotnav">
     <li class="uk-active"><a href="#">Item 1</a></li>
     <li><a href="#">Item 2</a></li>
@@ -43,7 +43,7 @@ The dotnav can also be displayed vertically. Just add the `.uk-dotnav-vertical` 
 <ul class="uk-dotnav uk-dotnav-vertical">...</ul>
 ```
 
-```example
+```html
 <ul class="uk-dotnav uk-dotnav-vertical">
     <li class="uk-active"><a href="#">Item 1</a></li>
     <li><a href="#">Item 2</a></li>
@@ -74,7 +74,7 @@ Use the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.md)
 </div>
 ```
 
-```example
+```html
 <div class="uk-position-relative uk-light" uk-slideshow>
 
     <ul class="uk-slideshow-items">

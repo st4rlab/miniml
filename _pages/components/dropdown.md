@@ -25,7 +25,7 @@ A dropdown can be enabled by hovering and clicking the toggle. Just add the `mod
 </div>
 ```
 
-```example
+```html
 <div class="uk-inline">
     <button class="uk-button uk-button-default" type="button">Hover</button>
     <div uk-dropdown>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
@@ -50,7 +50,7 @@ A dropdown can contain a nav from the [Nav component](nav.md). Just add the `.uk
 </div>
 ```
 
-```example
+```html
 <button class="uk-button uk-button-default" type="button">Hover</button>
 <div uk-dropdown>
     <ul class="uk-nav uk-dropdown-nav">
@@ -79,7 +79,7 @@ You can place a grid from the [Grid component](grid.md) inside a dropdown, which
 
 Use one of the classes from the [Width component](width.md) to adjust the dropdown's width.
 
-```example
+```html
 <button class="uk-button uk-button-default" type="button">Hover</button>
 <div class="uk-width-large" uk-dropdown>
     <div class="uk-dropdown-grid uk-child-width-1-2@m" uk-grid>
@@ -119,7 +119,7 @@ Add one of the following options to the `uk-dropdown` attribute to adjust the dr
 <div uk-dropdown="pos: top-left"></div>
 ```
 
-```example
+```html
 <div class="uk-inline">
     <button class="uk-button uk-button-default" type="button">Top Right</button>
     <div uk-dropdown="pos: top-right">
@@ -196,7 +196,7 @@ By default, the dropdown flips automatically when it exceeds the viewport's edge
 </div>
 ```
 
-```example
+```html
 <div class="boundary uk-panel uk-placeholder uk-width-2-3@s">
 
     <button class="uk-button uk-button-default uk-float-left" type="button">Hover</button>
@@ -241,7 +241,7 @@ You can also align the dropdown to its boundary. To do so, add the `boundary-ali
 </div>
 ```
 
-```example
+```html
 <div class="boundary-align uk-panel uk-placeholder">
 
     <button class="uk-button uk-button-default uk-float-left" type="button">Justify</button>
@@ -283,7 +283,7 @@ To define a custom offset between the dropdown container and the toggle, add the
 <div uk-dropdown="offset: 80"></div>
 ```
 
-```example
+```html
 <button class="uk-button uk-button-default" type="button">Hover</button>
 <div uk-dropdown="offset: 80">
     <ul class="uk-nav uk-dropdown-nav">
@@ -308,7 +308,7 @@ Apply one or more animations to the dropdown by adding the `animation: uk-animat
 <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000"></div>
 ```
 
-```example
+```html
 <button class="uk-button uk-button-default" type="button">Hover</button>
 <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
     <ul class="uk-nav uk-dropdown-nav">

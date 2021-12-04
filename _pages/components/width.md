@@ -33,7 +33,7 @@ Add one of the `.uk-width-*` classes to an element to determine its size. Typica
 </div>
 ```
 
-```example
+```html
 <div class="uk-text-center" uk-grid>
     <div class="uk-width-1-3">
         <div class="uk-card uk-card-default uk-card-body">1-3</div>
@@ -83,7 +83,7 @@ The Width component provides additional modifiers to give you more flexibility i
 </div>
 ```
 
-```example
+```html
 <div class="uk-text-center" uk-grid>
     <div class="uk-width-auto">
         <div class="uk-card uk-card-default uk-card-body">Auto</div>
@@ -118,7 +118,7 @@ To create a grid whose child elements' widths are evenly split, you don't have t
 </div>
 ```
 
-```example
+```html
 <div class="uk-child-width-1-4 uk-grid-small uk-text-center" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-body">Item</div>
@@ -148,7 +148,7 @@ Items that use width classes with fractions will break into a new row, if they n
 </div>
 ```
 
-```example
+```html
 <div class="uk-child-width-expand uk-grid-small uk-text-center" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-body">Item</div>
@@ -186,7 +186,7 @@ In addition to the calculated width classes, you can also add one of the followi
 <div class="uk-width-medium"></div>
 ```
 
-```example
+```html
 <div class="uk-width-small uk-margin"><div class="uk-card uk-card-small uk-card-default uk-card-body">Small</div></div>
 <div class="uk-width-medium uk-margin"><div class="uk-card uk-card-small uk-card-default uk-card-body">Medium</div></div>
 <div class="uk-width-large uk-margin"><div class="uk-card uk-card-small uk-card-default uk-card-body">Large</div></div>
@@ -209,7 +209,7 @@ You can also combine `.uk-child-width-*` classes with `.uk-width-*` classes for 
 </div>
 ```
 
-```example
+```html
 <div class="uk-child-width-expand uk-grid-small uk-text-center" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-body">Expand</div>
@@ -240,7 +240,7 @@ UIkit provides a number of responsive widths classes. Basically they work just l
 | `.uk-width-*@l`<br> `.uk-child-width-*@l`   | Affects device widths of _1200px_ and larger. Grid columns will stack on smaller sizes. |
 | `.uk-width-*@xl`<br> `.uk-child-width-*@xl` | Affects device widths of _1600px_ and larger. Grid columns will stack on smaller sizes. |
 
-```example
+```html
 <div class="uk-grid-match uk-grid-small uk-text-center" uk-grid>
     <div class="uk-width-1-2@m">
         <div class="uk-card uk-card-default uk-card-body">1-2@m</div>

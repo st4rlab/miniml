@@ -27,7 +27,7 @@ This component is mostly used in combination with the [Overlay component](overla
 </div>
 ```
 
-```example
+```html
 <div class="uk-child-width-1-2 uk-child-width-1-3@s uk-grid-match uk-grid-small" uk-grid>
     <div class="uk-text-center">
         <div class="uk-inline-clip uk-transition-toggle" tabindex="0">

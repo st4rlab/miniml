@@ -30,7 +30,7 @@ To toggle an animation on hover or focus, add the `.uk-animation-toggle` class t
 </div>
 ```
 
-```example
+```html
 <div class="uk-child-width-1-2 uk-child-width-1-4@s uk-grid-match" uk-grid>
     <div class="uk-animation-toggle" tabindex="0">
         <div class="uk-card uk-card-default uk-card-body uk-animation-fade">
@@ -125,7 +125,7 @@ By default, all animations are incoming. To reverse any animation, add the `.uk-
 <div class="uk-animation-fade uk-animation-reverse"></div>
 ```
 
-```example
+```html
 <div class="uk-child-width-1-2 uk-child-width-1-4@s uk-grid-match" uk-grid>
     <div class="uk-animation-toggle" tabindex="0">
         <div class="uk-card uk-card-default uk-card-body uk-animation-fade uk-animation-reverse">
@@ -221,7 +221,7 @@ To play animations at a faster speed, add the `.uk-animation-fast` class to the 
 ```
 
 
-```example
+```html
 <div class="uk-width-1-3@s">
     <div class="uk-animation-toggle" tabindex="0">
         <div class="uk-card uk-card-default uk-card-body uk-animation-fast uk-animation-fade">
@@ -241,7 +241,7 @@ By default, scaling animations originate from the center. To modify this behavio
 <div class="uk-animation-scale-up uk-transform-origin-bottom-right"></div>
 ```
 
-```example
+```html
 <div class="uk-child-width-1-3@s" uk-grid>
     <div class="uk-animation-toggle" tabindex="0">
         <div class="uk-card uk-card-default uk-card-body uk-animation-scale-up uk-transform-origin-bottom-right">
@@ -273,7 +273,7 @@ To add a simple Ken Burns effect, add the `.uk-animation-kenburns` class to any 
 
 By default the animation starts on page load. In this example we used the [Scrollspy](scrollspy.md) component, to toggle the effect when the image enters the view.
 
-```example
+```html
 <div class="uk-child-width-1-2@s uk-grid-small" uk-grid>
     <div>
         <div class="uk-overflow-hidden">
@@ -308,7 +308,7 @@ A much easier way is to use the [SVG component](svg.md) by adding `uk-svg="strok
 <img src="" uk-svg="stroke-animation: true">
 ```
 
-```example
+```html
 <div class="uk-child-width-1-2@m uk-text-center" uk-grid>
     <div class="uk-animation-toggle" tabindex="0">
         <img class="uk-animation-stroke" width="400" height="400" src="images/strokes.svg" alt="" uk-svg="stroke-animation: true">

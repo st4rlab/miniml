@@ -33,7 +33,7 @@ Add the `uk-modal` attribute to a `<div>` element to create the modal container 
 </div>
 ```
 
-```example
+```html
 <!-- This is a button toggling the modal -->
 <button class="uk-button uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #modal-example">Open</button>
 
@@ -75,7 +75,7 @@ Add the `uk-close` attribute from the [Close component](close.md), to apply a cl
 </div>
 ```
 
-```example
+```html
 <!-- This is a button toggling the modal with the default close button -->
 <button class="uk-button uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #modal-close-default">Default</button>
 
@@ -113,7 +113,7 @@ To vertically center the modal dialog, you can use the `.uk-margin-auto-vertical
 </div>
 ```
 
-```example
+```html
 <a class="uk-button uk-button-default" href="#modal-center" uk-toggle>Open</a>
 
 <div id="modal-center" class="uk-flex-top" uk-modal>
@@ -153,7 +153,7 @@ To divide the modal into different content sections, use the following classes.
 </div>
 ```
 
-```example
+```html
 <a class="uk-button uk-button-default" href="#modal-sections" uk-toggle>Open</a>
 
 <div id="modal-sections" uk-modal>
@@ -184,7 +184,7 @@ Add the `.uk-modal-container` class to expand the modal dialog to the default [C
 <div id="my-id" class="uk-modal-container" uk-modal>...</div>
 ```
 
-```example
+```html
 <a class="uk-button uk-button-default" href="#modal-container" uk-toggle>Open</a>
 
 <div id="modal-container" class="uk-modal-container" uk-modal>
@@ -212,7 +212,7 @@ To create a modal, that fills the entire page, add the `.uk-modal-full` class. I
 
 Using the [grid](grid.md) and [width](width.md) classes, you can create a nice, split fullscreen modal.
 
-```example
+```html
 <a class="uk-button uk-button-default" href="#modal-full" uk-toggle>Open</a>
 
 <div id="modal-full" class="uk-modal-full" uk-modal>
@@ -241,7 +241,7 @@ By default, the page will scroll with the modal, if its content exceeds the wind
 </div>
 ```
 
-```example
+```html
 <a class="uk-button uk-button-default" href="#modal-overflow" uk-toggle>Open</a>
 
 <div id="modal-overflow" uk-modal>
@@ -300,7 +300,7 @@ If you want to display media, you should first check, if the [Lightbox component
 </div>
 ```
 
-```example
+```html
  <p uk-margin>
     <a class="uk-button uk-button-default" href="#modal-media-image" uk-toggle>Image</a>
     <a class="uk-button uk-button-default" href="#modal-media-video" uk-toggle>Video</a>
@@ -357,7 +357,7 @@ You can group multiple modals by linking from one to the other and back. Use thi
 </div>
 ```
 
-```example
+```html
 <p uk-margin>
     <a class="uk-button uk-button-default" href="#modal-group-1" uk-toggle>Modal 1</a>
     <a class="uk-button uk-button-default" href="#modal-group-2" uk-toggle>Modal 2</a>
@@ -487,7 +487,7 @@ const modal = UIkit.modal.confirm('UIkit confirm!').dialog; // The modal compone
 const el = modal.$el; // The modal element
 ```
 
-```example
+```html
 <p uk-margin>
 
     <a id="js-modal-dialog" class="uk-button uk-button-default" href="#">Dialog</a>

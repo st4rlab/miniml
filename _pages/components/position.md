@@ -30,7 +30,7 @@ To apply this component, add one of the `.uk-position-*` classes to a block elem
 </div>
 ```
 
-```example
+```html
 <div class="uk-inline uk-margin">
 
     <img src="images/photo.jpg" alt="">
@@ -66,7 +66,7 @@ You can also apply more specific positions that won't spread over one side of th
 <div class="uk-position-top-right"></div>
 ```
 
-```example
+```html
 <div class="uk-inline">
 
     <img src="images/photo.jpg" alt="">
@@ -95,7 +95,7 @@ If you want a position element to cover its container, just add the `.uk-positio
 <div class="uk-position-cover"></div>
 ```
 
-```example
+```html
 <div class="uk-inline">
 
     <img src="images/photo.jpg" alt="">
@@ -122,7 +122,7 @@ There are two classes to center elements outside on the left and right of the pa
 <div class="uk-position-center-left-out"></div>
 ```
 
-```example
+```html
 <div class="uk-inline">
 
     <img src="images/photo.jpg" alt="">
@@ -143,7 +143,7 @@ To apply a small margin to positioned elements, add the `.uk-position-small` cla
 <div class="uk-position-small uk-position-center"></div>
 ```
 
-```example
+```html
 <div class="uk-inline uk-margin">
 
     <img src="images/photo.jpg" alt="">
@@ -201,7 +201,7 @@ To apply a medium margin to positioned elements, add the `.uk-position-medium` c
 <div class="uk-position-medium uk-position-center"></div>
 ```
 
-```example
+```html
 <div class="uk-inline uk-margin">
 
     <img src="images/photo.jpg" alt="">
@@ -259,7 +259,7 @@ To apply a large margin to positioned elements, add the `.uk-position-large` cla
 <div class="uk-position-large uk-position-center"></div>
 ```
 
-```example
+```html
 <div class="uk-inline uk-margin">
 
     <img src="images/photo.jpg" alt="">

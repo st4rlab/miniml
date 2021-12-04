@@ -15,7 +15,7 @@ To create an element that remains at the top of the viewport when scrolling down
 <div uk-sticky></div>
 ```
 
-```example
+```html
 <div class="uk-card uk-card-default uk-card-body" style="z-index: 980;" uk-sticky="bottom: #offset">Stick to the top</div>
 ```
 
@@ -31,7 +31,7 @@ You can position the element below the viewport edge. Add the `offset` attribute
 <div uk-sticky="offset: 100"></div>
 ```
 
-```example
+```html
 <div class="uk-card uk-card-default uk-card-body" style="z-index: 980;" uk-sticky="offset: 100; bottom: #top">Stick 100px below the top</div>
 ```
 
@@ -54,7 +54,7 @@ To apply the sticky behavior with a delay, add the `top` attribute, which can be
 </div>
 ```
 
-```example
+```html
 <div class="uk-child-width-1-2@s" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-body" style="z-index: 980;" uk-sticky="top: 200; bottom: #animation">Stick to the top but only after 200px scrolling</div>
@@ -77,7 +77,7 @@ Add an animation from the [Animation component](animation.md) in order to have t
 <div uk-sticky="animation: uk-animation-slide-top"></div>
 ```
 
-```example
+```html
 <div class="uk-card uk-card-default uk-card-body" style="margin-bottom: 200px; z-index: 980;" uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">Animation Slide Top</div>
 ```
 
@@ -91,7 +91,7 @@ You can make the sticky element show only when scrolling up to save space. Toget
 <div uk-sticky="show-on-up: true"></div>
 ```
 
-```example
+```html
 <div class="uk-card uk-card-default uk-card-body" style="margin-bottom: 200px; z-index: 980;" uk-sticky="show-on-up: true; animation: uk-animation-slide-top; bottom: #bottom">Slide in on scroll up</div>
 ```
 
@@ -112,7 +112,7 @@ Bind the sticky behavior to a specific element, so that it disappears after scro
 <div id="my-id"></div>
 ```
 
-```example
+```html
 <div class="uk-child-width-1-2@s" uk-grid>
     <div>
         <div class="uk-background-muted uk-height-medium">
