@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "github-uikit"
-  spec.version       = "0.1.0"
+  spec.version       = "1.0.0"
   spec.authors       = ["isaacjosephhorton"]
   spec.email         = ["isaacjosephhorton@gmail.com"]
 
-  spec.summary       = "Build a beautiful dynamic & modern website in minutes with Github-UiKit!"
+  spec.summary       = "Build a fast responsive website in minutes with Github-UiKit!"
   spec.homepage      = "https://github.com/isaacjosephhorton/github-uikit"
   spec.license       = "MIT"
 

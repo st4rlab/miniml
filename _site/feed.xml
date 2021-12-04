@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>Isaac Joseph Horton</title>
-		<description>Design and software solutions for business. Ecommerce expert. Usability guru.</description>
+		<description>Design and software solutions for business. Ecommerce expert. Usability consultant.</description>
 		<link>http://localhost:4000</link>
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		<lastBuildDate>Sat, 13 Oct 2018 13:55:00 -0700</lastBuildDate>
@@ -79,7 +79,7 @@
 				<title>Getting Started</title>
 				
 				
-					<description>&lt;p&gt;Jekyll-UiKit is available as a &lt;a href=&quot;https://jekyllrb.com/docs/themes/&quot;&gt;Jekyll theme gem&lt;/a&gt;. It has been built with Github Pages in mind. Installing should be fairly simple.&lt;/p&gt;
+					<description>&lt;p&gt;Github-UiKit is available as a &lt;a href=&quot;https://jekyllrb.com/docs/themes/&quot;&gt;Jekyll theme gem&lt;/a&gt;. It has been built with Github Pages in mind. Installing should be fairly simple.&lt;/p&gt;
 
 </description>
 				
