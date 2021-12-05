@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "github-uikit"
-  spec.version       = "1.0.0"
+  spec.version       = "1.1.0"
   spec.authors       = ["isaacjosephhorton"]
   spec.email         = ["isaacjosephhorton@gmail.com"]
 
