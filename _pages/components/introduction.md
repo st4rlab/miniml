@@ -16,6 +16,7 @@ Edit the \_config.yml
 Check out how the templates are working.
 Create content in new markdown or html files.
 Copy  \_layouts/page.html to make a new page template.
+
 The included documentation will give you the proper instructions for each component.
 <a class="uk-button uk-button-primary" href="/documentation">Documentation</a>
 
