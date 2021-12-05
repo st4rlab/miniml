@@ -4,50 +4,11 @@ title: Documentation
 permalink: /documentation
 ---
 
-# Introduction
+# Getting Started
 
-<p class="uk-text-lead">Get familiar with the basic setup and overview of Github-UIkit.</p>
+Dowload via clone, fork or install the theme gem.
 
-First of all you need to download Github-UIkit. For other packages and links to a CDN, head to the [installation guide](installation.md) to learn more.
-
-<a class="uk-button uk-button-primary" href="https://getuikit.com/download">Download UIkit</a>
-
-***
-
-## Package contents
-
-The Zip file contains the compiled CSS and JavaScript files, which is everything you need to get started. Later, you might want to [install and compile UIkit](installation.md) yourself and also [create your own UIkit theme](less.md).
-
-| Folder | Description                                                    |
-|:-------|:---------------------------------------------------------------|
-| `/css` | Contains the UIkit CSS and a right-to-left version.            |
-| `/js`  | Contains the UIkit JavaScript and the Icon Library JavaScript. |
-
-***
-
-## HTML markup
-
-Add the compiled and minified CSS and JavaScript to the `<head>` element of your HTML5 document. Also include the UIkit icon library. For your basic setup, that's it.
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Title</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/uikit.min.css" />
-        <script src="js/uikit.min.js"></script>
-        <script src="js/uikit-icons.min.js"></script>
-    </head>
-    <body>
-    </body>
-</html>
-```
-
-Once you have included UIkit into your document, take a look at the available components and create your own markup inside the `<body>` element of your page.
-
-***
+<a class="uk-button uk-button-primary" href="/installation">Installation</a>
 
 ## UIkit autocomplete for your editor
 
