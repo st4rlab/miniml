@@ -24,6 +24,26 @@ And familiarize yourself with UIkit as a separate project. There are good exampl
 
 <a class="uk-button uk-button-primary" href="https://getuikit.com">Check out UIkit</a>
 
+# Important Components to Understand
+
+Some components are undoubtedly used much more than others in a typical web project. Here are a few that we recommend getting your head around first. Proper formatting of the structure and attributes are important when learning how to use Github-Uikit.
+* [Container](/components/container)
+* [Grid](/components/grid)
+* [Heading](/components/heading)
+* [Base](/components/base)
+* [Utility](/components/utility)
+* [Text](/components/text)
+* [Width](/components/width)
+* [Button](/components/button)
+
+# Amazing functionality hiding away deep within the possibilities of these Components:
+* [Parallax](/components/parallax)
+* [Scrollspy](/components/scrollspy)
+* [Modal](/components/modal)
+* [Background](/components/background)
+* [Icon](/components/icon)
+* [Animation](/components/animation)
+* [SVG](/components/svg)
 
 ***
 
