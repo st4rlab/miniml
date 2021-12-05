@@ -18,7 +18,7 @@ Create content in new markdown or html files.
 Copy  \_layouts/page.html to make a new page template.
 
 The included documentation will give you the proper instructions for each component.
-<a class="uk-button uk-button-secondary" href="/documentation">Documentation</a>
+<a class="uk-button uk-button-secondary" href="/github-uikit/documentation">Documentation</a>
 
 And familiarize yourself with UIkit as a separate project. There are good examples of commponents inside the official documentation.
 
