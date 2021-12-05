@@ -5,11 +5,14 @@ permalink: /components/javascript
 
 # JavaScript
 
-Once you have [installed UIkit](installation.md), include the JavaScript files on your page by adding them to the `<head>` section. You can also choose to use the `defer` attribute to delay script execution.
+Once you have [installed Github-UIkit](installation.md), the javascript files are automatically included and there is nothing for you to do except insert content and take advantage of the framework. You can check to see the included JavaScript files on your page by looking at the `<head>` section.
 
+You can also choose to use the `defer` attribute to delay script execution.
+
+These files drive the functionality of your javascript behavior.
 ```html
-<script src="js/uikit.min.js"></script>
-<script src="js/uikit-icons.min.js"></script>
+<script src="assets/js/uikit.min.js"></script>
+<script src="assets/js/uikit-icons.min.js"></script>
 ```
 
 ***
