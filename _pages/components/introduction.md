@@ -5,11 +5,23 @@ permalink: /components/introduction
 
 # Introduction
 
-<p class="uk-text-lead">Get familiar with the basic setup and overview of UIkit.</p>
+<p class="uk-text-lead">Get familiar with the basic setup and overview of Github-UIkit.</p>
 
-First of all you need to download UIkit. For other packages and links to a CDN, head to the [installation guide](installation.md) to learn more.
+First of all you need to install Github-UIkit.
+```
+git clone https://github.com/isaacjosephhorton/github-uikit.git
+```
 
-<a class="uk-button uk-button-primary" href="https://getuikit.com/download">Download UIkit</a>
+Edit the \_config.yml
+Check out how the templates are working.
+Create content in new markdown or html files.
+Copy  \_layouts/page.html to make a new page template.
+The included documentation will give you the proper instructions for each component.
+<a class="uk-button uk-button-primary" href="/documentation">Documentation</a>
+
+And familiarize yourself with UIkit as a separate project. There are good examples of commponents inside the official documentation.
+<a class="uk-button uk-button-primary" href="https://getuikit.com">Check out UIkit</a>
+
 
 ***
 
