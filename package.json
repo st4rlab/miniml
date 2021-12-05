@@ -1,0 +1,25 @@
+{
+  "name": "github-uikit",
+  "version": "1.0.0",
+  "description": "Build responsive websites effortlessly with a robust javascript and css framework.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacjosephhorton/github-uikit.git"
+  },
+  "keywords": [
+    "uikit",
+    "bootstrap",
+    "github",
+    "pages"
+  ],
+  "author": "Isaac Joseph Horton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isaacjosephhorton/github-uikit/issues"
+  },
+  "homepage": "https://github.com/isaacjosephhorton/github-uikit#readme"
+}
