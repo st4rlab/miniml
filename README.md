@@ -5,7 +5,7 @@
 
 ![Github-Uikit](/screenshot.jpg)
 
-# Demo Websites
+# Demo site
 This site is it's own demo. [Github-UiKit](https://isaacjosephhorton.github.io/github-uikit/)
 
 Built with [UiKit](https://getuikit.com/) by [YooTheme](https://yootheme.com/). Uikit is better than bootstrap in many ways and this Jekyll theme gem leverages all the power of UiKit in an easy to understand package giving you the ability to focus on content and structure with ease.
