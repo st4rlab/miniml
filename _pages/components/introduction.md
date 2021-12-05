@@ -21,7 +21,8 @@ The included documentation will give you the proper instructions for each compon
 <a class="uk-button uk-button-primary" href="/documentation">Documentation</a>
 
 And familiarize yourself with UIkit as a separate project. There are good examples of commponents inside the official documentation.
-<a class="uk-button uk-button-primary" href="https://getuikit.com">Check out UIkit</a>
+
+<a class="uk-button uk-button-default" href="https://getuikit.com">Check out UIkit</a>
 
 
 ***
@@ -39,25 +40,7 @@ The Zip file contains the compiled CSS and JavaScript files, which is everything
 
 ## HTML markup
 
-Add the compiled and minified CSS and JavaScript to the `<head>` element of your HTML5 document. Also include the UIkit icon library. For your basic setup, that's it.
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Title</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/uikit.min.css" />
-        <script src="js/uikit.min.js"></script>
-        <script src="js/uikit-icons.min.js"></script>
-    </head>
-    <body>
-    </body>
-</html>
-```
-
-Once you have included UIkit into your document, take a look at the available components and create your own markup inside the `<body>` element of your page.
+Once you've installed Github-Uikit, take a look at the available components and create your own markup inside the `<body>` element of your page.
 
 ***
 
