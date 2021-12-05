@@ -2,7 +2,6 @@
 layout: over
 title: Installation
 subheading: Choose the installation method that best suits your project.
-bigimg: /assets/img/uikit.jpg
 permalink: /installation
 ---
 
@@ -13,6 +12,10 @@ First enter the following into your CLI.
 git clone https://github.com/isaacjosephhorton/github-uikit.git
 ```
 Edit the config file in the root directory to match your site's configuration.
+run this command to build the files into the \_site directory:
+```
+bundle install
+```
 Test the site locally with this command:
 ```
 bundle exec jekyll serve
