@@ -27,23 +27,23 @@ And familiarize yourself with UIkit as a separate project. There are good exampl
 # Important Components to Understand
 
 Some components are undoubtedly used much more than others in a typical web project. Here are a few that we recommend getting your head around first. Proper formatting of the structure and attributes are important when learning how to use Github-Uikit.
-* [Container](/components/container)
-* [Grid](/components/grid)
-* [Heading](/components/heading)
-* [Base](/components/base)
-* [Utility](/components/utility)
-* [Text](/components/text)
-* [Width](/components/width)
-* [Button](/components/button)
+* [Container]({{ site.baseurl }}/components/container)
+* [Grid]({{ site.baseurl }}/components/grid)
+* [Heading]({{ site.baseurl }}/components/heading)
+* [Base]({{ site.baseurl }}/components/base)
+* [Utility]({{ site.baseurl }}/components/utility)
+* [Text]({{ site.baseurl }}/components/text)
+* [Width]({{ site.baseurl }}/components/width)
+* [Button]({{ site.baseurl }}/components/button)
 
 # Amazing functionality hiding away deep within the possibilities of these Components:
-* [Parallax](/components/parallax)
-* [Scrollspy](/components/scrollspy)
-* [Modal](/components/modal)
-* [Background](/components/background)
-* [Icon](/components/icon)
-* [Animation](/components/animation)
-* [SVG](/components/svg)
+* [Parallax]({{ site.baseurl }}/components/parallax)
+* [Scrollspy]({{ site.baseurl }}/components/scrollspy)
+* [Modal]({{ site.baseurl }}/components/modal)
+* [Background]({{ site.baseurl }}/components/background)
+* [Icon]({{ site.baseurl }}/components/icon)
+* [Animation]({{ site.baseurl }}/components/animation)
+* [SVG]({{ site.baseurl }}/components/svg)
 
 ***
 
