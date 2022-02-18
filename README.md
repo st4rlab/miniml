@@ -15,11 +15,8 @@ Built with [UiKit](https://getuikit.com/) by [YooTheme](https://yootheme.com/). 
 * 100% compatible with GitHub Pages!
 * Available to install by forking, cloning, or as a theme gem.
 * Responsive layout built in and Mobile off-canvas menu.
-* Contact forms by [Formspree.io](https://formspree.io)!
 * Paginated blog page with follow links on last page.
 * Tag archive page that automatically populates with tags from posts. ie: [tag1, tag2, tag3, etc].
-* Optimized for search engines with support for Twitter Cards and Open Graph data.
-* Comments powered by Disqus, with Staticman integration planned.
 * Google Analytics support.
 * Large header image support.
 
