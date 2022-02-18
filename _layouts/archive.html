@@ -11,7 +11,6 @@ layout: default
           {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
           {% assign sortedTags=site_tags | split:',' | sort %}
           <span uk-icon="tag"></span>
-
           {% for tag in sortedTags %}
           <span class="tags">
             <a href="#{{tag | cgi_escape}}" uk-scroll>{{ tag }} [{{ site.tags[tag].size }}]</a>

@@ -13,10 +13,11 @@ layout: default
     {% else %}
     <div>
       <div class="uk-container">
-        <h3 class="uk-heading-medium">{{page.title}}</h3>
+        {% if page.subheading %}<h5 class="uk-margin-small-bottom">{{page.subheading}}</h5>{% endif %}
+        <h3 class="uk-heading-medium uk-margin-remove-top">{{page.title}}</h3>
       </div>
     </div>
-    <hr class="uk-divider-icon">
+    <hr>
     {% endif %}
   </div>
 </div>

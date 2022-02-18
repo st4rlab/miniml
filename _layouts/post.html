@@ -2,24 +2,11 @@
 layout: default
 ---
 
-<div class="uk-container-expand uk-animation-slide-top-small">
+<div class="uk-container-expand">
   <div id="blog" class="uk-section-default">
-    {% if page.bigimg %}
-    <div class="uk-section-large uk-light uk-background-fixed uk-background-cover uk-background-bottom-center" style="background-image: url({{ page.bigimg | relative_url }})">
-      <div class="intro-text uk-container uk-padding-large">
-        <h2 class="uk-heading-primary">{{page.title}}</h2>
-        <p class="uk-article-meta">
-          <span uk-icon="calendar"></span> <time class="date">{{page.date | date: "%b %d, %Y "}}</time>
-          <span uk-icon="tag"></span>
-          {% for tag in page.tags %}
-          <a class="uk-link-muted" href="{{ site.baseurl }}/archive/index.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
-        </p>
-      </div>
-    </div>
-    {% else %}
     <div>
-      <div class="uk-container uk-padding-large">
-        <h2 class="uk-heading-primary">{{page.title}}</h2>
+      <div class="uk-container uk-padding-large uk-padding-remove-bottom">
+        <h2 class="uk-heading-medium">{{page.title}}</h2>
         <p class="uk-article-meta">
           <span uk-icon="calendar"></span> <span class="date">{{page.date | date: "%b %d, %Y "}}</span>
           <span uk-icon="tag"></span>
@@ -30,18 +17,34 @@ layout: default
       </div>
     </div>
     <hr class="uk-divider-icon">
-    {% endif %}
   </div>
-  <div class="uk-section uk-container uk-padding-large">
-    <article class="uk-article">
-      {{content}}
-    </article>
-    <div>
-      {% include post-pagination.html %}
+  <div class="uk-section uk-section-large uk-container uk-padding-large uk-padding-remove-top">
+    <div uk-grid>
+      <div class="uk-width-1-3 uk-visible@m">
+        <h6 class="uk-margin-remove-bottom">Title:</h6>
+        <h3 class="uk-margin-remove-top">{{page.title}}</h3>
+        <h6 class="uk-margin-remove-bottom">Date:</h6>
+        <h5 class="uk-margin-remove-top">{{page.date | date: "%b %d, %Y "}}</h5>
+        <h6 class="uk-margin-remove-bottom">Tags:</h6>
+        <p class="uk-margin-remove-top">{% for tag in page.tags %}
+          <a href="{{ site.baseurl }}/archive/index.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+        </p>
+        <img src="{{page.image}}">
+      </div>
+      <div class="uk-width-2-3@m">
+        <article class="uk-article">
+          {% if page.bigimg %}
+          <img src="{{page.bigimg}}">
+          {% endif %}
+          {{content}}
+        </article>
+      </div>
+      <div>
+        {% include post-pagination.html %}
+      </div>
+      {% include disqus.html %}
+      <br>
+      {% include buymeacoffee.html %}
     </div>
-    {% include disqus.html %}
-    <br>
-    {% include buymeacoffee.html %}
+    {% include totop.html %}
   </div>
-  {% include totop.html %}
-</div>

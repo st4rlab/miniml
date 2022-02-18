@@ -60,8 +60,8 @@ timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_databas
 # Not using collections at this time
 
 # 7. Site settings
-name: Isaac Joseph Horton
-title: IJH
+name: Github-Uikit
+title: Gu
 author: Isaac Joseph Horton
 email: isaacjosephhorton@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -75,12 +75,12 @@ locale: en_US
 to_top: true
 
 disqus: ""
-twitter: "ijhdesigner"
+twitter: "st4rdusdt"
 github: "isaacjosephhorton"
 buymeacoffee: "isaachorton"
 fb_app_id: "" # This is needed for FB Cards to work.
 google_analytics: "G-KZ1JS263PW"
-google_ad_client: "pub-7840179511709652"
+google_ad_client: ""
 
 include: ["_pages"]
 
@@ -88,7 +88,7 @@ permalink: /:title/
 
 #footer-links
 
-Twitter: "ijhdesigner"
+Twitter: "st4rdusdt"
 GitHub: "isaacjosephhorton"
 RSS: true
 
