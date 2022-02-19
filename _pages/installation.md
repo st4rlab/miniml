@@ -5,6 +5,10 @@ subheading: Choose the installation method that best suits your project.
 permalink: /installation
 ---
 
+<div class="uk-child-width-1-2@m uk-text-center" uk-grid>
+    <div>
+        <div class="uk-card uk-card-default">
+
 Choose from one of the following methods to install into your local drive.
 # Clone the Github repository
 First enter the following into your CLI.
@@ -25,6 +29,9 @@ push the finished site to a github repository
 git push -u origin master
 ```
 
+</div>
+</div>
+<div class="uk-card uk-card-secondary">
 # Set up navigation
 Navigation titles and links are set in the \_data/navigation.yml file.
 
@@ -36,6 +43,9 @@ Use one of the 5 following page layouts or design your own.
 * default
 * component
 * home
+
+</div>
+</div>
 
 Built in [UiKit](https://getuikit.com/){:target="_ blank"}, with an elegant homepage, blog and archive pages. Build a simple and beautiful website or blog in a few hours or less.
 
