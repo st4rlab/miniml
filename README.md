@@ -1,4 +1,4 @@
-# miniml
+# MINIML
 
 
 ## Build Responsive Websites Fast with MINIML
