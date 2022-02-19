@@ -10,22 +10,22 @@ Choose from one of the following methods to install into your local drive.
 
 # Clone the Github repository
 First enter the following into your CLI.
-```
+~~~
 git clone https://github.com/st4rlab/miniml.git
-```
+~~~
 Edit the config file in the root directory to match your site's configuration.
 run this command to build the files into the \_site directory:
-```
+~~~
 bundle install
-```
+~~~
 Test the site locally with this command:
-```
+~~~
 bundle exec jekyll serve
-```
+~~~
 push the finished site to a github repository
-```
+~~~
 git push -u origin master
-```
+~~~
 
 
 # Set up navigation
