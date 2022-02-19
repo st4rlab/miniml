@@ -61,13 +61,13 @@ timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_databas
 
 # 7. Site settings
 name: miniml
-title: Gu
-author: Isaac Joseph Horton
-email: isaacjosephhorton@gmail.com
+title: MINIML
+author: Isaac Horton
+email: st4rdusdt@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Design and software solutions for business. Ecommerce expert. Usability consultant.
 baseurl: "/miniml" # the subpath of your site, e.g. /blog
-url: "https://isaacjosephhorton.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://st4rlab.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 avatar: /assets/isaac-avatar.png #path/to/avatar.png
 lang: en
 locale: en_US
@@ -76,7 +76,7 @@ to_top: true
 
 disqus: ""
 twitter: "st4rdusdt"
-github: "isaacjosephhorton"
+github: "st4rlab"
 buymeacoffee: "isaachorton"
 fb_app_id: "" # This is needed for FB Cards to work.
 google_analytics: "G-KZ1JS263PW"
@@ -89,7 +89,7 @@ permalink: /:title/
 #footer-links
 
 Twitter: "st4rdusdt"
-GitHub: "isaacjosephhorton"
+GitHub: "st4rlab"
 RSS: true
 
 

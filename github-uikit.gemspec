@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "miniml"
-  spec.version       = "1.1.0"
+  spec.version       = "1.0.0"
   spec.authors       = ["isaacjosephhorton"]
-  spec.email         = ["isaacjosephhorton@gmail.com"]
+  spec.email         = ["st4rdusdt@gmail.com"]
 
   spec.summary       = "Build a fast responsive website in minutes with miniml!"
-  spec.homepage      = "https://github.com/isaacjosephhorton/miniml"
+  spec.homepage      = "https://github.com/st4rlab/miniml"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
