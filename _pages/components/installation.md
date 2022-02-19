@@ -9,10 +9,10 @@ permalink: /components/installation
 
 ## Download
 
-You have the following options to install Github-UIkit:
+You have the following options to install miniml:
 
-- Download the [latest release](https://github.com/isaacjosephhorton/github-uikit/releases/latest) with pre-built JavaScript and CSS.
-- Clone the repo to get all source files including build scripts: `git clone git://github.com/isaacjosephhorton/github-uikit.git`
+- Download the [latest release](https://github.com/isaacjosephhorton/miniml/releases/latest) with pre-built JavaScript and CSS.
+- Clone the repo to get all source files including build scripts: `git clone git://github.com/isaacjosephhorton/miniml.git`
 
 The compiled files of all UIkit versions are also hosted on the jsDelivr content delivery network via [jsdelivr.com](https://www.jsdelivr.com/package/npm/uikit). Working on a switch to show versions.
 
@@ -27,7 +27,7 @@ The compiled files of all UIkit versions are also hosted on the jsDelivr content
 
 This is the structure needed by UiKit but we take care of this automatically for you.
 
-# You can help by making additional layouts and page designs to the Github-Uikit Community
+# You can help by making additional layouts and page designs to the miniml Community
 
 ```html
 /dist/css

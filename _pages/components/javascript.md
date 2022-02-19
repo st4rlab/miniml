@@ -5,7 +5,7 @@ permalink: /components/javascript
 
 # JavaScript
 
-Once you have [installed Github-UIkit](installation.md), the javascript files are automatically included and there is nothing for you to do except insert content and take advantage of the framework. You can check to see the included JavaScript files on your page by looking at the `<head>` section.
+Once you have [installed miniml](installation.md), the javascript files are automatically included and there is nothing for you to do except insert content and take advantage of the framework. You can check to see the included JavaScript files on your page by looking at the `<head>` section.
 
 You can also choose to use the `defer` attribute to delay script execution.
 

@@ -1,4 +1,4 @@
 ---
 layout: page
-title: About Github-UiKit
+title: About miniml
 ---

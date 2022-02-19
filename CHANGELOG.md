@@ -2,7 +2,7 @@
 
 ### Enhancements
 
-* published github-uikit codebase.
+* published miniml codebase.
 
 ### Bug Fixes
 

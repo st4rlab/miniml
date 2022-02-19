@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "github-uikit"
+  spec.name          = "miniml"
   spec.version       = "1.1.0"
   spec.authors       = ["isaacjosephhorton"]
   spec.email         = ["isaacjosephhorton@gmail.com"]
 
-  spec.summary       = "Build a fast responsive website in minutes with Github-UiKit!"
-  spec.homepage      = "https://github.com/isaacjosephhorton/github-uikit"
+  spec.summary       = "Build a fast responsive website in minutes with miniml!"
+  spec.homepage      = "https://github.com/isaacjosephhorton/miniml"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"

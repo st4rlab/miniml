@@ -33,7 +33,7 @@ exclude:
 - CNAME
 - Gemfile
 - Gemfile.lock
-- github-uikit.gemspec
+- miniml.gemspec
 - vendor/
 
 # 2. Installed Gems
@@ -60,13 +60,13 @@ timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_databas
 # Not using collections at this time
 
 # 7. Site settings
-name: Github-Uikit
+name: miniml
 title: Gu
 author: Isaac Joseph Horton
 email: isaacjosephhorton@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Design and software solutions for business. Ecommerce expert. Usability consultant.
-baseurl: "/github-uikit" # the subpath of your site, e.g. /blog
+baseurl: "/miniml" # the subpath of your site, e.g. /blog
 url: "https://isaacjosephhorton.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 avatar: /assets/isaac-avatar.png #path/to/avatar.png
 lang: en

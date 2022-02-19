@@ -8,7 +8,7 @@ permalink: /documentation
 
 Dowload via clone, fork or install the theme gem.
 
-<a class="uk-button uk-button-primary" href="/github-uikit/installation">Installation</a>
+<a class="uk-button uk-button-primary" href="/miniml/installation">Installation</a>
 
 ## UIkit autocomplete for your editor
 

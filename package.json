@@ -1,5 +1,5 @@
 {
-  "name": "github-uikit",
+  "name": "miniml",
   "version": "1.1.0",
   "description": "Build responsive websites effortlessly with a robust javascript and css framework.",
   "main": "index.html",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/isaacjosephhorton/github-uikit.git"
+    "url": "git+https://github.com/isaacjosephhorton/miniml.git"
   },
   "keywords": [
     "uikit",
@@ -19,7 +19,7 @@
   "author": "Isaac Joseph Horton",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/isaacjosephhorton/github-uikit/issues"
+    "url": "https://github.com/isaacjosephhorton/miniml/issues"
   },
-  "homepage": "https://github.com/isaacjosephhorton/github-uikit#readme"
+  "homepage": "https://github.com/isaacjosephhorton/miniml#readme"
 }
