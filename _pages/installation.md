@@ -8,7 +8,7 @@ permalink: /installation
 
 <div class="uk-child-width-1-2@m uk-text-center" uk-grid>
     <div>
-        <div class="uk-card uk-card-default">
+        <div class="uk-card uk-card-default uk-card-body">
 
 
 Choose from one of the following methods to install into your local drive.
@@ -34,7 +34,7 @@ git push -u origin master
 
 </div>
 </div>
-<div class="uk-card uk-card-secondary">
+<div class="uk-card uk-card-secondary uk-card-body">
 
 
 # Set up navigation
