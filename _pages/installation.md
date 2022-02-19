@@ -45,6 +45,3 @@ Built in [UiKit](https://getuikit.com/){:target="_ blank"}, with an elegant home
 [![GitHub issues](https://img.shields.io/github/issues-raw/st4rlab/miniml.svg?style=for-the-badge)](https://github.com/st4rlab/miniml/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 [![Gem](https://img.shields.io/gem/dt/miniml?label=Gem&style=for-the-badge)](https://rubygems.org/gems/miniml)
 [![GitHub contributors](https://img.shields.io/github/contributors/st4rlab/miniml.svg?style=for-the-badge)](https://github.com/st4rlab/miniml/graphs/contributors)
-
-
-[![Open Source Helpers](https://www.codetriage.com/st4rlab/miniml/badges/users.svg)](https://www.codetriage.com/st4rlab/miniml)
