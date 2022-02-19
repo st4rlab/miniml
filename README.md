@@ -1,12 +1,12 @@
-# Github-UiKit
+# miniml
 
 
-## Build Responsive Websites Fast with Github-Uikit (Gu.)
+## Build Responsive Websites Fast with MINIML
 
-![Github-Uikit](/screenshot.jpg)
+![miniml](/screenshot.jpg)
 
 # Demo site
-This site is it's own demo. [Github-UiKit](https://isaacjosephhorton.github.io/github-uikit/)
+This site is it's own demo. [miniml](https://st4rdusdt.github.io/miniml/)
 
 Built with [UiKit](https://getuikit.com/) by [YooTheme](https://yootheme.com/). Uikit is better than bootstrap in many ways and this Jekyll theme gem leverages all the power of UiKit in an easy to understand package giving you the ability to focus on content and structure with ease.
 
@@ -22,5 +22,5 @@ Built with [UiKit](https://getuikit.com/) by [YooTheme](https://yootheme.com/). 
 
 # Installation
 
-For Quickstart, go to: [Installation](https://isaacjosephhorton.github.io/github-uikit/installation/)
-Detailed instructions located in: [Documentation](https://isaacjosephhorton.github.io/github-uikit/documentation/)
+For Quickstart, go to: [Installation](https://st4rdusdt.github.io/miniml/installation/)
+Detailed instructions located in: [Documentation](https://st4rdusdt.github.io/miniml/documentation/)
