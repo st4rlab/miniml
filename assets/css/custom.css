@@ -33,7 +33,7 @@ h3, h4, h5, h6 {
 	font-weight:500;
 }
 .svgiconcard span {
-	margin: 0 15px 15px 0;
+	margin: 0 25px 25px 0;
 }
 pre code {
 	padding:20px;
@@ -50,4 +50,7 @@ pre code {
 	border: 1px solid #ccc;
 	margin-right: 5px;
 	display:inline-block;
+}
+.tm-main.uk-sticky.uk-active {
+	background-color:#fff;
 }
