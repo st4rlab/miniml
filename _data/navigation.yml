@@ -1,6 +1,8 @@
 # If you want to link only specific pages in your header, add the path to the
 # pages in order as they should show up.
 main:
+  - title: "Block Library"
+    url: https://miniml.cc/
   - title: "Installation"
     url: /installation
   - title: "Documentation"
@@ -9,8 +11,9 @@ main:
     url: /blog
   - title: "Contact"
     url: /contact
-    
 mobile:
+  - title: "Block Library"
+    url: https://miniml.cc/
   - title: "Installation"
     url: /installation
   - title: "Documentation"
