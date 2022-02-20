@@ -1,10 +1,9 @@
 <header>
 	<div class="uk-container">
 		<nav id="nav" class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-			<div class="uk-navbar-left uk-light black">
-				<div class="uk-position-center-left-out blackback">&nbsp;</div>
+			<div class="uk-navbar-left ">
 				{% include logo.html %}
-				<ul class="uk-navbar-nav  uk-visible@s uk-light">
+				<ul class="uk-navbar-nav  uk-visible@s">
 					{% for link in site.data.navigation.main %}
 					{% if link.url contains "https" %}
 					{% assign url = link.url %}
