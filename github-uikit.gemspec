@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "miniml"
   spec.version       = "1.0.0"
   spec.authors       = ["isaacjosephhorton"]
-  spec.email         = ["st4rdusdt@gmail.com"]
+  spec.email         = ["isaacjosephhorton@gmail.com"]
 
   spec.summary       = "Build a fast responsive website in minutes with miniml!"
   spec.homepage      = "https://github.com/st4rlab/miniml"

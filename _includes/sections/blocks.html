@@ -1,22 +1,72 @@
 <div class="uk-section uk-section-large uk-section-muted">
   <div class="uk-container">
-    <div class="uk-clearfix">
-      <div class="uk-width-1-2@m uk-float-left">
-        <div class="uk-card uk-card-default uk-card-body" uk-scrollspy="target: > div.mi-padline; cls: uk-animation-fade; delay: 500">
-          <div class="mi-padline">
-          <span uk-icon="icon: thumbnails; ratio: 2"></span>
+    <div uk-grid>
+
+      <div class="uk-width-1-2@m">
+        <div class="uk-card uk-card-default" uk-scrollspy="cls: uk-animation-fade; repeat: true">
+          <div class="uk-card-media-top">
+            <img src="{{ "/assets/img/blocks.png" | relative_url }}" alt="Blocks">
           </div>
-          <div class="mi-padline">
-          <span uk-icon="icon: table; ratio: 2"></span>
+          <div class="uk-card-body">
+            <div class="uk-heading-small" uk-scrollspy="cls: uk-animation-fade; repeat: true">Blocks</div>
+            <p>New Template Library featuring modular Blocks of reusable content for your custom build. </p>
+            <a class="uk-button uk-button-primary uk-button-large" href="{{"/components/introduction" | relative_url }}">Blokks Template Library</a>
           </div>
-          <div class="mi-padline">
-          <span uk-icon="icon: image; ratio: 2"></span>
-          </div>
-          <div class="uk-heading-medium" uk-scrollspy="cls: uk-animation-fade; repeat: true">Blocks</div>
-          <p>New Template Library featuring modular Blocks of reusable content for your custom build. </p>
-          <a class="uk-button uk-button-primary uk-button-large" href="{{"/components/introduction" | relative_url }}">Blokks Template Library</a>
         </div>
       </div>
+
+      <div class="uk-width-1-2@m">
+        <div class="uk-card uk-card-default" uk-scrollspy="cls: uk-animation-fade; repeat: true">
+          <div class="uk-card-media-top">
+            <img src="{{ "/assets/img/animation.png" | relative_url }}" alt="Animation">
+          </div>
+          <div class="uk-card-body">
+            <div class="uk-heading-small" uk-scrollspy="cls: uk-animation-fade; repeat: true">Animators</div>
+            <p>Quickly construct animated elements by adding easy to use attributes. </p>
+            <a class="uk-button uk-button-primary uk-button-large" href="{{"/components/animation" | relative_url }}">View Code Examples</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="uk-width-1-2@m">
+        <div class="uk-card uk-card-default" uk-scrollspy="cls: uk-animation-fade; repeat: true">
+          <div class="uk-card-media-top">
+            <img src="{{ "/assets/img/scrollspy.png" | relative_url }}" alt="Animation">
+          </div>
+          <div class="uk-card-body">
+            <div class="uk-heading-small" uk-scrollspy="cls: uk-animation-fade; repeat: true">Scrollspy</div>
+            <p>Trigger events on scroll like animations. </p>
+            <a class="uk-button uk-button-primary uk-button-large" href="{{"/components/scrollspy" | relative_url }}">Try Scrollspy</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="uk-width-1-2@m">
+        <div class="uk-card uk-card-default" uk-scrollspy="cls: uk-animation-fade; repeat: true">
+          <div class="uk-card-media-top">
+            <img src="{{ "/assets/img/slideshow.png" | relative_url }}" alt="Slideshow">
+          </div>
+          <div class="uk-card-body">
+            <div class="uk-heading-small" uk-scrollspy="cls: uk-animation-fade; repeat: true">Slideshow</div>
+            <p>Construct animated slideshows with a click. </p>
+            <a class="uk-button uk-button-primary uk-button-large" href="{{"/components/slideshow" | relative_url }}">View Slideshow Component</a>
+          </div>
+        </div>
+      </div>
+
+            <div class="uk-width-1-2@m">
+              <div class="uk-card uk-card-default" uk-scrollspy="cls: uk-animation-fade; repeat: true">
+                <div class="uk-card-media-top">
+                  <img src="{{ "/assets/img/text.png" | relative_url }}" alt="Text">
+                </div>
+                <div class="uk-card-body">
+                  <div class="uk-heading-small" uk-scrollspy="cls: uk-animation-fade; repeat: true">Text</div>
+                  <p>Text formatting classes cover every need. </p>
+                  <a class="uk-button uk-button-primary uk-button-large" href="{{"/components/text" | relative_url }}">View Text Component</a>
+                </div>
+              </div>
+            </div>
+
     </div>
   </div>
 </div>
