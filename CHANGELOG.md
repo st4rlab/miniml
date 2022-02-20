@@ -3,7 +3,3 @@
 ### Enhancements
 
 * published miniml codebase.
-
-### Bug Fixes
-
-* No Bugs yet!
