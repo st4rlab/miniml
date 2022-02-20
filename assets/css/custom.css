@@ -45,3 +45,9 @@ pre code {
     color: #abb2bf;
     border-radius: 5px;
 }
+.mi-padline {
+	padding: 10px 15px;
+	border: 1px solid #ccc;
+	margin-right: 5px;
+	display:inline-block;
+}
