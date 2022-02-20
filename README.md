@@ -6,7 +6,7 @@
 ![miniml](/screenshot.jpg)
 
 # Demo site
-This site is it's own demo. [miniml](https://st4rdusdt.github.io/miniml/)
+This site is it's own demo. [miniml](https://st4rlab.github.io/miniml/)
 
 Built with [UiKit](https://getuikit.com/) by [YooTheme](https://yootheme.com/). Uikit is better than bootstrap in many ways and this Jekyll theme gem leverages all the power of UiKit in an easy to understand package giving you the ability to focus on content and structure with ease.
 
