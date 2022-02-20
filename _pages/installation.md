@@ -6,7 +6,7 @@ permalink: /installation
 ---
 
 
-Choose from one of the following methods to install into your local drive.
+Installation is very easy and fast via the command line.
 
 # Clone the Github repository
 First enter the following into your CLI.

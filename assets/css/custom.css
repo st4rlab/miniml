@@ -35,3 +35,13 @@ h3, h4, h5, h6 {
 .svgiconcard span {
 	margin: 0 15px 15px 0;
 }
+pre code {
+	padding:20px;
+	display:block;
+	border-radius:5px;
+}
+.highlight, pre.highlight {
+    background: #282c34;
+    color: #abb2bf;
+    border-radius: 5px;
+}
