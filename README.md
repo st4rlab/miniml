@@ -22,5 +22,5 @@ Built with [UiKit](https://getuikit.com/) by [YooTheme](https://yootheme.com/). 
 
 # Installation
 
-For Quickstart, go to: [Installation](https://st4rlab.github.io/miniml/installation/)
-Detailed instructions located in: [Documentation](https://st4rlab.github.io/miniml/documentation/)
+For Quickstart, go to: [Installation](https://st4rlab.github.io/miniml/installation)
+Detailed instructions located in: [Documentation](https://st4rlab.github.io/miniml/documentation)
