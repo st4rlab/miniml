@@ -68,18 +68,17 @@ description: >- # this means to ignore newlines until "baseurl:"
   Design and software solutions for business. Ecommerce expert. Usability consultant.
 baseurl: "/miniml" # the subpath of your site, e.g. /blog
 url: "https://st4rlab.github.io" # the base hostname & protocol for your site, e.g. https://example.com
-avatar: /assets/isaac-avatar.png #path/to/avatar.png
+avatar: /assets/site-icon.png #path/to/avatar.png
 lang: en
 locale: en_US
 
 to_top: true
 
 disqus: ""
-twitter: "st4rdusdt"
+twitter: "kre8t_"
 github: "st4rlab"
 fb_app_id: "" # This is needed for FB Cards to work.
 google_analytics: "G-KZ1JS263PW"
-google_ad_client: ""
 
 include: ["_pages"]
 
@@ -87,8 +86,8 @@ permalink: /:title/
 
 #footer-links
 
-Twitter: "st4rdusdt"
-GitHub: "st4rlab"
+Twitter: "kre8t_"
+GitHub: "kre8t_"
 RSS: true
 
 
