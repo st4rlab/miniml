@@ -26,7 +26,7 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ page_title }}">
-  <meta property="og:image" content="{% if page.bigimg %}{{ page.bigimg | prepend: site.url }}{% else %}{{ "/assets/img/preview.png" | prepend: site.url }}{% endif %}">
+  <meta property="og:image" content="{% if page.bigimg %}{{ page.bigimg | prepend: site.url }}{% else %}{{ "/assets/site-icon.png" | prepend: site.url }}{% endif %}">
   <meta property="og:description" content="{{ site.description }}">
   <meta property="og:site_name" content="{{ site.name }}">
   <meta property="og:locale" content="{{ site.locale }}">
@@ -38,7 +38,7 @@
   <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}">
   <meta name="twitter:title" content="{{ page_title }}">
   <meta name="twitter:description" content="{{ page_description }}">
-  <meta name="twitter:image" content="{% if page.bigimg %}{{ page.bigimg | prepend: site.url }}{% else %}{{ "/Screenshot.jpg" | prepend: site.url }}{% endif %}">
+  <meta name="twitter:image" content="{% if page.bigimg %}{{ page.bigimg | prepend: site.url }}{% else %}{{ "/assets/site-icon.png" | prepend: site.url }}{% endif %}">
   <meta name="twitter:dnt" content="on">
 
   <!-- Preloading is not currently supported by any browser at the moment, the idea behind it is certainly interesting.

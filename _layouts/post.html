@@ -29,7 +29,7 @@ layout: default
         <p class="uk-margin-remove-top">{% for tag in page.tags %}
           <a href="{{ site.baseurl }}/archive/index.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
         </p>
-        <img src="{{page.image}}">
+          {% include post-pagination.html %}
       </div>
       <div class="uk-width-2-3@m">
         <article class="uk-article">
@@ -40,10 +40,9 @@ layout: default
         </article>
       </div>
       <div>
-        {% include post-pagination.html %}
+
       </div>
-      {% include disqus.html %}
-      <br>
+
     </div>
     {% include totop.html %}
   </div>

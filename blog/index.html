@@ -9,11 +9,11 @@ subheading: Ingredients for great user experience
     {% for post in paginator.posts %}
     <div>
       <div class="uk-card uk-card-default">
-        {{ if post.bigimg }}
+        {% if post.bigimg %}
         <div class="uk-card-media-top">
           <img src="{{ post.bigimg }}">
         </div>
-        {{ endif }}
+        {% endif %}
         <div class="uk-card-body">
           <h3><a class="uk-link-text" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
           <p class="uk-article-meta">
