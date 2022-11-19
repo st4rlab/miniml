@@ -3,7 +3,7 @@
 
 ## Build Responsive Websites Fast with MINIML
 
-![miniml](/screenshot.jpg)
+![miniml](/assets/img/miniml-preview.jpg)
 
 # Demo site
 This site is it's own demo. [miniml](https://st4rlab.github.io/miniml/)
