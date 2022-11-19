@@ -7,10 +7,6 @@ main:
     url: /installation
   - title: "Documentation"
     url: /documentation
-  - title: "Blog"
-    url: /blog
-  - title: "Contact"
-    url: /contact
 mobile:
   - title: "Block Library"
     url: https://miniml.cc/
@@ -18,7 +14,3 @@ mobile:
     url: /installation
   - title: "Documentation"
     url: /documentation
-  - title: "Blog"
-    url: /blog
-  - title: "Contact"
-    url: /contact
