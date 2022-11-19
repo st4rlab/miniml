@@ -10,9 +10,6 @@ pre {
 .uk-button.uk-button-primary, .uk-button.uk-button-default, .uk-button.uk-button-secondary {
 	border-radius:50px;
 }
-.uk-card {
-	border-radius:24px;
-}
 .uk-navbar-left.uk-light.black, .blackback {
     background-color: black;
 }
