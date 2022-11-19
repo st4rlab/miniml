@@ -9,7 +9,7 @@ permalink: /components/introduction
 
 First of all you need to install miniml.
 ```
-git clone https://github.com/isaacjosephhorton/miniml.git
+git clone https://github.com/st4rlab/miniml.git
 ```
 
 Edit the \_config.yml
