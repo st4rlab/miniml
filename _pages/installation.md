@@ -6,7 +6,7 @@ permalink: /installation
 ---
 
 
-Installation is very easy and fast via the command line.
+Installation is very easy and fast via the command line. You can choose between either installing as a white-label Jekyll theme or as a Ruby Gem.
 
 # Clone the Github repository
 First enter the following into your CLI.
@@ -49,4 +49,3 @@ Built in [UiKit](https://getuikit.com/){:target="_ blank"}, with an elegant home
 [![GitHub last commit](https://img.shields.io/github/last-commit/st4rlab/miniml.svg?style=for-the-badge)](https://github.com/isaacjosephhorton/miniml/commits/master)
 [![GitHub issues](https://img.shields.io/github/issues-raw/st4rlab/miniml.svg?style=for-the-badge)](https://github.com/st4rlab/miniml/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 [![Gem](https://img.shields.io/gem/dt/miniml?label=Gem&style=for-the-badge)](https://rubygems.org/gems/miniml)
-[![GitHub contributors](https://img.shields.io/github/contributors/st4rlab/miniml.svg?style=for-the-badge)](https://github.com/st4rlab/miniml/graphs/contributors)
