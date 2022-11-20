@@ -29,6 +29,9 @@ h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight:500;
 }
+.uk-card {
+	border-radius:12px;
+}
 .svgiconcard span {
 	margin: 0 25px 25px 0;
 }
