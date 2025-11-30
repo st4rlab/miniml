@@ -20,8 +20,22 @@ git init
 ~~~
 Create a new repository on GitHub.
 If you are planning on using github pages to host your site, name it "your_sitename.github.io". Make sure to make it public.
+Link up your local and remote repositories.
 ~~~
 git remote set-url origin https://github.com/your_username/your_sitename.github.io.git
+~~~
+Check that your remotes are set correctly. They should not be pointing to Miniml
+~~~
+git remote -v
+~~~
+Check your branch and status.
+~~~
+git status
+~~~
+It should be set to "main".
+If you're having a problem, you may need to reset your upstream on your branch.
+~~~
+git branch --unset-upstream
 ~~~
 run this command to build the files into the \_site directory:
 ~~~
