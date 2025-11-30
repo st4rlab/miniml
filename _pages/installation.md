@@ -14,6 +14,16 @@ First enter the following into your CLI.
 git clone https://github.com/st4rlab/miniml.git
 ~~~
 Edit the config file in the root directory to match your site's configuration.
+Change the name of the root directory to your site name.
+Initialize your git directory.
+~~~
+git init
+~~~
+Create a new repository on GitHub.
+If you are planning on using github pages to host your site, name it "your_sitename.github.io". Make sure to make it public.
+~~~
+git remote set-url origin https://github.com/your_username/your_sitename.github.io.git
+~~~
 run this command to build the files into the \_site directory:
 ~~~
 bundle install
