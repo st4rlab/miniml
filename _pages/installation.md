@@ -5,7 +5,6 @@ subheading: Choose the installation method that best suits your project.
 permalink: /installation
 ---
 
-
 Installation is very easy and fast via the command line. You can choose between either installing as a white-label Jekyll theme or as a Ruby Gem.
 
 # Clone the Github repository
