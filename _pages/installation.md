@@ -47,7 +47,7 @@ bundle exec jekyll serve
 ~~~
 push the finished site to a github repository
 ~~~
-git push -u origin master
+git push -u origin main
 ~~~
 
 

@@ -7,6 +7,8 @@ main:
     url: /installation
   - title: "Documentation"
     url: /documentation
+  - title: "Blog"
+    url: /blog
 mobile:
   - title: "Block Library"
     url: /blocks
@@ -14,3 +16,5 @@ mobile:
     url: /installation
   - title: "Documentation"
     url: /documentation
+  - title: "Blog"
+    url: /blog
