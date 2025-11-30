@@ -55,10 +55,11 @@ timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_databas
 
 
 # 5. Collections
-# Not using collections at this time
-# 6. Jekyll collections settings
-# Not using collections at this time
-
+collections:
+  blocks:
+    output: true
+    permalink: /blocks/:path/
+    title: Block Library
 # 7. Site settings
 name: miniml
 title: MINIML

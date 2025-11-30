@@ -2,14 +2,14 @@
 # pages in order as they should show up.
 main:
   - title: "Block Library"
-    url: https://miniml.cc/
+    url: /blocks
   - title: "Installation"
     url: /installation
   - title: "Documentation"
     url: /documentation
 mobile:
   - title: "Block Library"
-    url: https://miniml.cc/
+    url: /blocks
   - title: "Installation"
     url: /installation
   - title: "Documentation"
